@@ -1,0 +1,79 @@
+/* colors
+#142F56 #F8B822 #082D65 #203D6D #374C74 #3C5078 */
+
+
+
+body {
+    background-color: #ebeef1;
+}
+
+
+nav {
+    background-color: #142F56;
+}
+
+a.nav-link {
+    color: #F8B822;
+    font-size: large;
+}
+
+.hero-section {
+    background-color: #231CEF;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* Stack elements vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+    /* Adds a shadow effect */
+}
+
+.pill-button {
+    background-color: #F8B822 !important;
+    color: white;
+    border: none;
+    margin-top: 40px;
+    /* Space between overlay and button */
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    /* Soft button shadow */
+    transition: all 0.3s ease-in-out;
+}
+
+.pill-button:hover {
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.6);
+    /* Stronger shadow on hover */
+    transform: scale(1.05);
+    /* Slight zoom effect */
+}
+
+.styled-image {
+    width: 100%;
+    /* Makes the image take full width of its container */
+    max-width: 400px;
+    /* Adjust as needed */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+.logo-image {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.strong {
+    margin-top: 40px;
+}
