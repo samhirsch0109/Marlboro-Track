@@ -1,0 +1,108 @@
+body {
+    background-color: #eaedf0;
+}
+
+nav {
+    background-color: #142F56;
+}
+
+a.nav-link {
+    color: #F8B822;
+    font-size: large;
+    transition: color 0.3s ease-in-out;
+}
+
+a.nav-link:hover {
+    color: #fff;
+}
+
+
+
+#app {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    /* White background for the table container */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Soft shadow around the container */
+}
+
+/* Style for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    /* Light border for rows */
+}
+
+th {
+    background-color: #007bff;
+    /* Blue background for headers */
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    /* Alternate row colors */
+}
+
+tr:hover {
+    background-color: #e2e6ea;
+    /* Highlight row on hover */
+}
+
+
+/* Make the footer the same color as the navbar */
+footer {
+    background-color: #142F56;
+    /* Same as the navbar */
+    color: white;
+}
+
+footer a {
+    color: #F8B822;
+    /* Matching link color from navbar */
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: #fff;
+    /* On hover, links will turn white */
+}
+
+footer .container {
+    max-width: 1200px;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .col-md-4 {
+    margin-bottom: 20px;
+}
+
+footer .text-center {
+    background-color: #082D65;
+    /* Darker background for the bottom text */
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
