@@ -52,124 +52,129 @@
         </div>
       </nav>
     </header>
-    <div class="text-center">
-      <h1>Cross Country</h1>
 
-      <div class="container my-5">
-        <!-- First Class Section -->
-        <div class="row align-items-center my-5">
+    <div class="text-center main-content">
+      <section>
+        <h1>Cross Country</h1>
+
+        <div class="container my-5">
+          <div class="row align-items-center my-5">
             <div class="col-12 col-lg-6 text-center">
-                <img src="img/tutorial1.jpg" class="img-fluid rounded-3 shadow-lg styled-image" alt="classroom" />
+              <img
+                src="imgs/xcteam.png"
+                class="img-fluid rounded-3 shadow-lg styled-image"
+                alt="Cross Country Team"
+              />
             </div>
             <div class="col-12 col-lg-6 p-4">
               <p class="class-details">
-                  <h2 class="fw-bold">What You'll Do in Cross Country </h2>
-                  The Cross Country course teaches students the fundamentals of distance running, stamina building, and race strategies. 
-                  Students will participate in both individual and team events, competing in various cross country races, while developing skills in pacing, endurance, and mental toughness.
+                <h2 class="fw-bold">What You'll Do in Cross Country</h2>
+                The Cross Country course teaches students the fundamentals of
+                distance running, stamina building, and race strategies. Students
+                will participate in both individual and team events, competing in
+                various cross country races, while developing skills in pacing,
+                endurance, and mental toughness.
               </p>
-              </div>
-              <div class="text-center"> 
-              <ul class="list-group list-group-flush">
-                <h1> Events </h1>
-                <li class="list-group-item"> **Monmouth Battlefield**: A challenging 5K race through scenic terrain.</li>
-                <li class="list-group-item"> **Ocean County Park**: A fast-paced race featuring a variety of terrain.</li>
-                <li class="list-group-item">**Holmdel Park**: Known for its hilly course, perfect for testing endurance.</li>
-                <li class="list-group-item">**Thompson Park - 5K**: A competitive event that focuses on stamina and pacing.</li>
-                <li class="list-group-item">**Garrett Mountain**: A challenging 5K with varying elevations.</li>
-                <li class="list-group-item">**Warinanco Park**: A fun yet demanding 5K race perfect for building stamina.</li>
-              </ul>
-          </div>
-        
-              </ul>
+            </div>
           </div>
 
-          <div class="row p-3">
-            <!-- First heading -->
-            <div class="col-md-4 col-sm-6 trunk p-3 mb-2">
-              <h3 class="schedule-heading" id="schedule1-heading">Setup Time </h3>
-              <div class="event-details" id="time1-details">
-                <p>  Setup for Participants: 3:00pm
-                  </p>
-                <img src="imgs/big brook.jpg">
-              </div>
-            </div>
+          <div class="container text-center mb-2">
+            <h2 class="mb-4"> Events</h2>
+          <div class="mb-3"> 
+           <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Monmouth Battlefield:</strong> A challenging 5K race through scenic terrain.</li>
+              <li class="list-group-item"><strong>Ocean County Park:</strong> A fast-paced race featuring a variety of terrain.</li>
+              <li class="list-group-item"><strong>Holmdel Park:</strong> Known for its hilly course, perfect for testing endurance.</li>
+              <li class="list-group-item"><strong>Thompson Park - 5K:</strong> A competitive event that focuses on stamina and pacing.</li>
+              <li class="list-group-item"><strong>Garrett Mountain:</strong> A challenging 5K with varying elevations.</li>
+              <li class="list-group-item"><strong>Warinanco Park:</strong> A fun yet demanding 5K race perfect for building stamina.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-            <!-- Second heading -->
-            <div class="col-md-4 col-sm-6 trunk p-3 mb-2">
-              <h3 class="schedule-heading" id="schedule2-heading"> Starting Time  </h3>
-              <div class="event-details" id="time2-details">
-                <p> Event Time: 4:00 PM - 5:30 PM
-              </p>
-                <img src="pics/IMG_9120(1).png" class="event-photo">
-              </div>
-            </div>
-
-            <div class="col-md-4 col-sm-12 trunk p-3 mb-2">
-              <h3 class="schedule-heading" id="schedule3-heading"> Cleanup Time </h3>
-              <div class="time-details" id="time3-details">
-                <p> Cleanup for Participants:  5:30 - 6:00 pm
-                </p>
-                <img src="pics/IMG_9145(1).png" class="event-photo">
+      <div class="container text-center mb-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-sm-6 img p-3 mb-2 d-flex justify-content-center">
+            <div class="image-container">
+              <img src="imgs/big brook.jpg" alt="Big Brook Park" class="img-fluid">
+              <div class="overlay">
+                <p>Big Brook Park is a scenic location with great trails for training and races.</p>
               </div>
             </div>
           </div>
+      
+          <div class="col-md-6 col-sm-6 img p-3 mb-2 d-flex justify-content-center">
+            <div class="image-container">
+              <img src="imgs/holmdel park.png" alt="Holmdel Park" class="img-fluid">
+              <div class="overlay">
+                <p>Holmdel Park is known for its challenging hills and historic race events.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
           
+      </section>
 
-    </div>
-    <div class="row">
-      <!-- First Div -->
-      <div class="col-12 col-lg-6 text-center">
-        <div id="app">
-          <h1>Top Race Records</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Race</th>
-                <th>Runner</th>
-                <th>Time</th>
-                <th>Year</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="record in raceRecords" :key="record.race">
-                <td>{{ record.race }}</td>
-                <td>{{ record.name }}</td>
-                <td>{{ record.time }}</td>
-                <td>{{ record.year }}</td>
-              </tr>
-            </tbody>
-          </table>
+      <section>
+        <div class="row">
+          <div class="col-12 col-lg-6 text-center">
+            <div id="app">
+              <h1>Top Girls Records</h1>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Race</th>
+                    <th>Runner</th>
+                    <th>Time</th>
+                    <th>Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="record in raceRecords" :key="record.race">
+                    <td>{{ record.race }}</td>
+                    <td>{{ record.name }}</td>
+                    <td>{{ record.time }}</td>
+                    <td>{{ record.year }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 text-center">
+            <div id="app">
+              <h1>Top Race Records</h1>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Race</th>
+                    <th>Runner</th>
+                    <th>Time</th>
+                    <th>Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="record in raceRecords" :key="record.race">
+                    <td>{{ record.race }}</td>
+                    <td>{{ record.name }}</td>
+                    <td>{{ record.time }}</td>
+                    <td>{{ record.year }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
-      </div>
-    
-      <!-- Second Div (with similar content) -->
-      <div class="col-12 col-lg-6 text-center">
-        <div id="app">
-          <h1>Top Race Records</h1>
-          <table>
-            <thead>
-              <tr>
-                <th>Race</th>
-                <th>Runner</th>
-                <th>Time</th>
-                <th>Year</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="record in raceRecords" :key="record.race">
-                <td>{{ record.race }}</td>
-                <td>{{ record.name }}</td>
-                <td>{{ record.time }}</td>
-                <td>{{ record.year }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
+      </section>
     </div>
-    </div>
-  </main>
+
+   
+
     <footer> </footer>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -183,6 +188,5 @@
     ></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-    <!-- Ensure this script.js is correct -->
   </body>
 </html>

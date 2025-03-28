@@ -3,8 +3,10 @@ $('.logo-image').on('mouseenter', function (event) {
 });
 
 $('.logo-image').on('mouseleave', function (event) {
-    $(event.currentTarget).next('.card-description').fadeOut(500);
+    $(event.currentTarget).next('.card-description').fadeOut(100);
 });
+
+
 const vue_app = Vue.createApp({
     data() {
         return {
@@ -23,11 +25,9 @@ const vue_app = Vue.createApp({
             .then(data => {
                 this.raceRecords = data;  // Assign the fetched data to raceRecords
             })
-            .catch(error => {
-                console.error('Error loading the race records:', error);  // Log errors
-            });
     }
 });
 
 // Correctly mount the Vue instance using vue_app
 vue_app.mount("#app");
+

@@ -1,14 +1,44 @@
 [
   {
-    "race": "Monmouth Battlefield",
-    "name": "Suzanne Raspa",
-    "time": "20:33",
-    "year": 2008
+    "race": "Thompson Park - Two Mile",
+    "name": "Emma Luo",
+    "time": "12:48.40",
+    "year": 2022
+  },
+  {
+    "race": "Robert Miller Air Park (2 Mile Course)",
+    "name": "Rachel Weinberger",
+    "time": "13:05",
+    "year": 2009
+  },
+  {
+    "race": "Van Cortlandt Park, NY (2.5 Mile Course)",
+    "name": "Brittany Pietrosh",
+    "time": "16:56",
+    "year": 2007
   },
   {
     "race": "Ocean County Park",
     "name": "Emma Luo",
     "time": "18:26.00",
+    "year": 2021
+  },
+  {
+    "race": "Thompson Park - 5K",
+    "name": "Emma Luo",
+    "time": "19:23.32",
+    "year": 2021
+  },
+  {
+    "race": "Bucks Mills Park",
+    "name": "Emma Luo",
+    "time": "19:24.05",
+    "year": 2020
+  },
+  {
+    "race": "Freehold Twp.",
+    "name": "Emma Luo",
+    "time": "19:32.19",
     "year": 2021
   },
   {
@@ -18,28 +48,16 @@
     "year": 1984
   },
   {
-    "race": "Thompson Park - 5K",
+    "race": "Manasquan Res. (Howell)",
     "name": "Emma Luo",
-    "time": "19:23.32",
-    "year": 2021
+    "time": "19:57.0",
+    "year": 2020
   },
   {
-    "race": "Thompson Park - Two Mile",
+    "race": "Big Brook Park",
     "name": "Emma Luo",
-    "time": "12:48.40",
-    "year": 2022
-  },
-  {
-    "race": "Warinanco Park",
-    "name": "Karissa Leary",
-    "time": "21:35.4",
-    "year": 2006
-  },
-  {
-    "race": "Lincoln Park (3.3 Mile Course)",
-    "name": "Brittany Pietrosh",
-    "time": "20:53.25",
-    "year": 2007
+    "time": "19:59.0",
+    "year": 2020
   },
   {
     "race": "Allaire State Park",
@@ -48,16 +66,10 @@
     "year": 2004
   },
   {
-    "race": "Bucks Mills Park",
-    "name": "Emma Luo",
-    "time": "19:24.05",
-    "year": 2020
-  },
-  {
-    "race": "Freedom Park",
-    "name": "Brittany Pietrosh",
-    "time": "20:39.97",
-    "year": 2007
+    "race": "Monmouth Battlefield",
+    "name": "Suzanne Raspa",
+    "time": "20:33",
+    "year": 2008
   },
   {
     "race": "Garrett Mountain",
@@ -67,16 +79,16 @@
     "year": 2007
   },
   {
-    "race": "Van Cortlandt Park, NY (2.5 Mile Course)",
+    "race": "Lincoln Park (3.3 Mile Course)",
     "name": "Brittany Pietrosh",
-    "time": "16:56",
+    "time": "20:53.25",
     "year": 2007
   },
   {
-    "race": "Robert Miller Air Park (2 Mile Course)",
-    "name": "Rachel Weinberger",
-    "time": "13:05",
-    "year": 2009
+    "race": "Warinanco Park",
+    "name": "Karissa Leary",
+    "time": "21:35.4",
+    "year": 2006
   },
   {
     "race": "Livingston HS Course",
@@ -91,21 +103,9 @@
     "year": 2014
   },
   {
-    "race": "Big Brook Park",
-    "name": "Emma Luo",
-    "time": "19:59.0",
-    "year": 2020
-  },
-  {
-    "race": "Freehold Twp.",
-    "name": "Emma Luo",
-    "time": "19:32.19",
-    "year": 2021
-  },
-  {
-    "race": "Manasquan Res. (Howell)",
-    "name": "Emma Luo",
-    "time": "19:57.0",
-    "year": 2020
+    "race": "Freedom Park",
+    "name": "Brittany Pietrosh",
+    "time": "20:39.97",
+    "year": 2007
   }
 ]
