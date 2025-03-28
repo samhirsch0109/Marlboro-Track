@@ -35,18 +35,19 @@
     "time": "19:24.05",
     "year": 2020
   },
+   {
+    "race": "Holmdel Park",
+    "name": "Randi Engle",
+    "time": "19:29",
+    "year": 1984
+  },
   {
     "race": "Freehold Twp.",
     "name": "Emma Luo",
     "time": "19:32.19",
     "year": 2021
   },
-  {
-    "race": "Holmdel Park",
-    "name": "Randi Engle",
-    "time": "19:29",
-    "year": 1984
-  },
+ 
   {
     "race": "Manasquan Res. (Howell)",
     "name": "Emma Luo",
@@ -71,13 +72,7 @@
     "time": "20:33",
     "year": 2008
   },
-  {
-    "race": "Garrett Mountain",
-    "name": "Suzanne Raspa",
-    "avg_mile": "6:54",
-    "time": "21:24.16",
-    "year": 2007
-  },
+ 
   {
     "race": "Lincoln Park (3.3 Mile Course)",
     "name": "Brittany Pietrosh",
@@ -90,12 +85,7 @@
     "time": "21:35.4",
     "year": 2006
   },
-  {
-    "race": "Livingston HS Course",
-    "name": "Alexis Bartelloni",
-    "time": "21:42",
-    "year": 2013
-  },
+ 
   {
     "race": "Greystone Course",
     "name": "Alexis Bartelloni",
@@ -107,5 +97,17 @@
     "name": "Brittany Pietrosh",
     "time": "20:39.97",
     "year": 2007
+  } , 
+  {
+    "race": "Garrett Mountain",
+    "name": "Suzanne Raspa",
+    "time": "21:24.16",
+    "year": 2007
+  },
+  {
+    "race": "Livingston HS Course",
+    "name": "Alexis Bartelloni",
+    "time": "21:42",
+    "year": 2013
   }
 ]

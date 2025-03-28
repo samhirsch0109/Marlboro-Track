@@ -5,29 +5,38 @@ $('.logo-image').on('mouseenter', function (event) {
 $('.logo-image').on('mouseleave', function (event) {
     $(event.currentTarget).next('.card-description').fadeOut(100);
 });
-
-
-const vue_app = Vue.createApp({
+// Vue instance for Girls XC Records
+const girlsXCApp = Vue.createApp({
     data() {
         return {
-            raceRecords: [] // This will hold your race records
+            raceRecords: [] // Holds girls' records
         };
     },
     mounted() {
-        // Fetch the JSON file when the component is mounted
-        fetch('records.json')  // Use the correct file name here
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();  // Parse the JSON file
-            })
+        fetch('json/girlsxc.json') // Ensure this file exists
+            .then(response => response.json())
             .then(data => {
-                this.raceRecords = data;  // Assign the fetched data to raceRecords
+                this.raceRecords = data;
             })
+            .catch(error => console.error('Error fetching girls records:', error));
     }
 });
+girlsXCApp.mount("#girlsxc-app");
 
-// Correctly mount the Vue instance using vue_app
-vue_app.mount("#app");
-
+// Vue instance for Boys XC Records
+const boysXCApp = Vue.createApp({
+    data() {
+        return {
+            raceRecords: [] // Holds boys' records
+        };
+    },
+    mounted() {
+        fetch('json/boysxc.json') // Ensure this file exists
+            .then(response => response.json())
+            .then(data => {
+                this.raceRecords = data;
+            })
+            .catch(error => console.error('Error fetching boys records:', error));
+    }
+});
+boysXCApp.mount("#boysxc-app");

@@ -120,59 +120,57 @@
 
       <section>
         <div class="row">
+          <!-- Girls Records -->
           <div class="col-12 col-lg-6 text-center">
-            <div id="app">
-              <h1>Top Girls Records</h1>
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>Race</th>
-                    <th>Runner</th>
-                    <th>Time</th>
-                    <th>Year</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="record in raceRecords" :key="record.race">
-                    <td>{{ record.race }}</td>
-                    <td>{{ record.name }}</td>
-                    <td>{{ record.time }}</td>
-                    <td>{{ record.year }}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              <div id="girlsxc-app">
+                  <h1>Top Girls Records</h1>
+                  <table class="table table-bordered">
+                      <thead>
+                          <tr>
+                              <th>Race</th>
+                              <th>Runner</th>
+                              <th>Time</th>
+                              <th>Year</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr v-for="record in raceRecords" :key="record.race">
+                              <td>{{ record.race }}</td>
+                              <td>{{ record.name }}</td>
+                              <td>{{ record.time }}</td>
+                              <td>{{ record.year }}</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
           </div>
-
+      
+          <!-- Top Race Records -->
           <div class="col-12 col-lg-6 text-center">
-            <div id="app">
-              <h1>Top Race Records</h1>
-              <table class="table table-bordered">
-                <thead>
-                  <tr>
-                    <th>Race</th>
-                    <th>Runner</th>
-                    <th>Time</th>
-                    <th>Year</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="record in raceRecords" :key="record.race">
-                    <td>{{ record.race }}</td>
-                    <td>{{ record.name }}</td>
-                    <td>{{ record.time }}</td>
-                    <td>{{ record.year }}</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+              <div id="boysxc-app">
+                  <h1>Top Boys Records</h1>
+                  <table class="table table-bordered">
+                      <thead>
+                          <tr>
+                              <th>Race</th>
+                              <th>Runner</th>
+                              <th>Time</th>
+                              <th>Year</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr v-for="record in raceRecords" :key="record.race">
+                              <td>{{ record.race }}</td>
+                              <td>{{ record.name }}</td>
+                              <td>{{ record.time }}</td>
+                              <td>{{ record.year }}</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
           </div>
-        </div>
-      </section>
-    </div>
-
-   
-
+      </div>
+      
     <footer> </footer>
     </footer>
 

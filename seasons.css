@@ -16,51 +16,76 @@ a.nav-link:hover {
     color: #fff;
 }
 
-
-
-#app {
-    max-width: 600px;
+/* Container Cards */
+#girlsxc-app,
+#boysxc-app {
+    max-width: 700px;
     margin: 30px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    /* White background for the table container */
-    border-radius: 8px;
-    /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    /* Soft shadow around the container */
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
 }
 
-/* Style for table */
+/* Subtle Hover Effect */
+#girlsxc-app:hover,
+#boysxc-app:hover {
+    transform: translateY(-5px);
+}
+
+
+/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 20px 0;
+    margin-top: 15px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-th,
-td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-    /* Light border for rows */
-}
-
+/* Table Header */
 th {
-    background-color: #007bff;
-    /* Blue background for headers */
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    /* Smooth gradient */
     color: white;
     font-weight: bold;
+    padding: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
+/* Table Rows */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate Row Colors */
 tr:nth-child(even) {
-    background-color: #f2f2f2;
-    /* Alternate row colors */
+    background-color: #f8f9fc;
 }
 
+/* Hover Effect */
 tr:hover {
-    background-color: #e2e6ea;
-    /* Highlight row on hover */
+    background-color: #e3e7f1;
+    transition: background 0.3s ease-in-out;
 }
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    table {
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 10px;
+    }
+}
+
 
 
 /* Make the footer the same color as the navbar */
