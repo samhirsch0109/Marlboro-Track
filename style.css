@@ -24,6 +24,70 @@ a.nav-link:hover {
     padding: 10px 15px;
 }
 
+
+.navbar-toggler-icon {
+    display: none;
+}
+
+/* Custom nav toggle button */
+.custom-toggler {
+    position: relative;
+    width: 50px;
+    /* Larger button */
+    height: 50px;
+    border: 2px solid #F8B822;
+    border-radius: 8px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Custom toggle icon lines */
+.custom-toggler .line {
+    display: block;
+    width: 30px;
+    /* Ensure proper width */
+    height: 4px;
+    /* Slightly thinner for balance */
+    background-color: #F8B822;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Position each line */
+.custom-toggler .line:nth-child(1) {
+    top: 14px;
+}
+
+.custom-toggler .line:nth-child(2) {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.custom-toggler .line:nth-child(3) {
+    bottom: 14px;
+}
+
+/* Keep X centered and proportional */
+.custom-toggler[aria-expanded="true"] .line:nth-child(1) {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.custom-toggler[aria-expanded="true"] .line:nth-child(2) {
+    opacity: 0;
+}
+
+.custom-toggler[aria-expanded="true"] .line:nth-child(3) {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+
 .hero-section {
     position: relative;
     height: 700px;

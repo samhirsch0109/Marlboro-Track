@@ -1,5 +1,9 @@
 body {
-    background-color: #eaedf0;
+    padding-top: 70px;
+}
+
+h1.main-content {
+    padding-top: 30px;
 }
 
 nav {
@@ -15,6 +19,75 @@ a.nav-link {
 a.nav-link:hover {
     color: #fff;
 }
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+}
+
+
+.navbar-toggler-icon {
+    display: none;
+}
+
+/* Custom nav toggle button */
+.custom-toggler {
+    position: relative;
+    width: 50px;
+    /* Larger button */
+    height: 50px;
+    border: 1px solid #F8B822;
+    border-radius: 8px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Custom toggle icon lines */
+.custom-toggler .line {
+    display: block;
+    width: 20px;
+    /* Ensure proper width */
+    height: 4px;
+    /* Slightly thinner for balance */
+    background-color: #F8B822;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+/* Position each line */
+.custom-toggler .line:nth-child(1) {
+    top: 14px;
+}
+
+.custom-toggler .line:nth-child(2) {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.custom-toggler .line:nth-child(3) {
+    bottom: 14px;
+}
+
+/* Keep X centered and proportional */
+.custom-toggler[aria-expanded="true"] .line:nth-child(1) {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+
+.custom-toggler[aria-expanded="true"] .line:nth-child(2) {
+    opacity: 0;
+}
+
+.custom-toggler[aria-expanded="true"] .line:nth-child(3) {
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(-45deg);
+}
+
+
 
 /* Container Cards */
 #girlsxc-app,
@@ -256,28 +329,4 @@ img.img-fluid {
     /* Adjust image height */
     object-fit: cover;
     border-radius: 10px;
-}
-
-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 50%;
-}
-
-button.prev {
-    left: 10px;
-}
-
-button.next {
-    right: 10px;
-}
-
-button:hover {
-    background: rgba(0, 0, 0, 0.8);
 }

@@ -1,0 +1,262 @@
+ [
+      {
+        "event": "100 Meter Dash",
+        "name": "Adaobi Unachukwu",
+        "time_mark": "11.99 (FAT)",
+        "year": 2008,
+        "other_record": "District"
+      },
+      {
+        "event": "200 Meter Dash",
+        "name": "Adaobi Unachukwu",
+        "time_mark": "24.85 (FAT)",
+        "year": 2008
+      },
+      {
+        "event": "400 Meter Dash",
+        "name": "Adaobi Unachukwu",
+        "time_mark": "55.07 (FAT)",
+        "year": 2009,
+        "other_record": "District"
+      },
+      {
+        "event": "800 Meter Run",
+        "name": "Brittany Pietrosh",
+        "time_mark": "2:16.22 (FAT)",
+        "year": 2009
+      },
+      {
+        "event": "1500 Meter Run",
+        "name": "Alexis Bartelloni",
+        "time_mark": "4:56.57 (FAT)",
+        "year": 2014
+      },
+      {
+        "event": "1600 Meter Run",
+        "name": "Alexis Bartelloni",
+        "time_mark": "5:00.08 (FAT)",
+        "year": 2015
+      },
+      {
+        "event": "1 Mile",
+        "name": "Rachel Weinberger",
+        "time_mark": "5:29.67 (FAT)",
+        "year": 2012
+      },
+      {
+        "event": "3000 Meter Run",
+        "name": "Alexis Bartelloni",
+        "time_mark": "10:59.55 (FAT)",
+        "year": 2014
+      },
+      {
+        "event": "3200 Meter Run",
+        "name": "Emma Luo",
+        "time_mark": "11:06.19 (FAT)",
+        "year": 2023
+      },
+      {
+        "event": "100 High Hurdles",
+        "name": "Lisa Billinghurst, Amelia Gonzalez",
+        "time_mark": "15.0 (h), 15.10 (FAT)",
+        "year": "1991, 2023"
+      },
+      {
+        "event": "300 Low Hurdles",
+        "name": "Briana Mullan",
+        "time_mark": "47.84 (FAT)",
+        "year": 2018
+      },
+      {
+        "event": "400 Intermediate Hurdles",
+        "name": "Lisa Billinghurst",
+        "time_mark": "01:04.5",
+        "year": 1991
+      },
+      {
+        "event": "2000 Meter Steeplechase",
+        "name": "Alexis Bartelloni",
+        "time_mark": "7:14.63 (FAT)",
+        "year": 2015
+      },
+      {
+        "event": "Shot Put",
+        "name": "Kristen Batts",
+        "time_mark": "42-4",
+        "year": 2007
+      },
+      {
+        "event": "Discus",
+        "name": "Kristen Batts",
+        "time_mark": "152-4",
+        "year": 2007,
+        "other_record": "Monmouth County & District"
+      },
+      {
+        "event": "Hammer",
+        "name": "Kristen Batts",
+        "time_mark": "109-11",
+        "year": 2007
+      },
+      {
+        "event": "Javelin",
+        "name": "Elaina Mezzasalma",
+        "time_mark": "130-11",
+        "year": 2010,
+        "other_record": "District"
+      },
+      {
+        "event": "Javelin (Rubber Tip)",
+        "name": "Elaina Mezzasalma",
+        "time_mark": "146-11",
+        "year": 2010,
+        "other_record": "District"
+      },
+      {
+        "event": "Pole Vault",
+        "name": "Jenna Meagher",
+        "time_mark": "10-1",
+        "year": 2007
+      },
+      {
+        "event": "Long Jump",
+        "name": "Gianna Gomez",
+        "time_mark": "18-9",
+        "year": 2018
+      },
+      {
+        "event": "Triple Jump",
+        "name": "Adaobi Unachukwu",
+        "time_mark": "40-0",
+        "year": 2009
+      },
+      {
+        "event": "High Jump",
+        "name": "P. Kreiger",
+        "time_mark": "5-6",
+        "year": 1977
+      },
+      {
+        "event": "4x100",
+        "name": "Lauren Newman, Alicia Zhou, Labeeqa Khizir & Danielle Spano",
+        "time_mark": "49.25 (FAT)",
+        "year": 2016,
+        "other_record": "District"
+      },
+      {
+        "event": "4x200",
+        "name": "Alicia Zhou, Kaitlyn Hypolitte, Tara Ryan & Danielle Spano",
+        "time_mark": "1:43.25 (FAT)",
+        "year": 2015,
+        "other_record": "District"
+      },
+      {
+        "event": "4x400",
+        "name": "Elaina Mezzasalma, Ada Unachukwu, Lauren Pietrosh & Brittany Pietrosh",
+        "time_mark": "3:57.08 (FAT)",
+        "year": 2009
+      },
+      {
+        "event": "4x800",
+        "name": "Lauren Pietrosh, Jen Vetrano, Rachel Weinberger & Brittany Pietrosh",
+        "time_mark": "9:33.12 (FAT)",
+        "year": 2009
+      },
+      {
+        "event": "4x1600",
+        "name": "Jenn Ventrano, Jessica McFadden, Lauren Pietrosh & Rachel Weinberger",
+        "time_mark": "22:35.70 (FAT)",
+        "year": 2009
+      },
+      {
+        "event": "Sprint Medley (200, 200, 400, 800)",
+        "name": "Lauren Pietrosh, Emily Cellini, Ada Unachukwu & Brittany Pietrosh",
+        "time_mark": "4:12.28 (FAT)",
+        "year": 2007
+      },
+      {
+        "event": "Distance Medley (1200, 400, 800, 1600)",
+        "name": "Lauren Pietrosh, Ada Unachukwu, Rachel Weinberger & Brittany Pietrosh",
+        "time_mark": "12:14.24 (FAT)",
+        "year": 2009
+      },
+      {
+        "event": "Super Sprint Medley (100, 100, 200, 400)",
+        "name": "Kim McKinnon, Megan Berger, Jessica McFadden & IJ Unachukwu",
+        "time_mark": "1:51.37 (FAT)",
+        "year": 2012
+      },
+      {
+        "event": "Swedish Medley (100, 200, 300, 400) 1000 Meters",
+        "name": "Kim McKinnon, Megan Berger, Jessica McFadden & IJ Unachukwu",
+        "time_mark": "2:22.21 (FAT)",
+        "year": 2012
+      },
+      {
+        "event": "3x400IH",
+        "name": "Alexa Friedman, Anna Paziewska & Brianna Mullan",
+        "time_mark": "3:37.16 (FAT)",
+        "year": 2017
+      },
+      {
+        "event": "Shuttle Hurdles",
+        "name": "Lauren Newman, Alexa Freidman, Brianna Mullan & Gianna Gomez",
+        "time_mark": "1:12.18 (FAT)",
+        "year": 2017
+      },
+      {
+        "event": "Mixed 4x400",
+        "name": "Josh Brown, Jazmyn Brown, Sofie Giarratana, Matt Pignata",
+        "time_mark": "3:54.08 (FAT)",
+        "year": 2024
+      },
+      {
+        "event": "2x Discus",
+        "name": "Chikia Cole & Kristen Batts",
+        "time_mark": "215-10",
+        "year": 2004,
+        "other_record": "District"
+      },
+      {
+        "event": "2x Javelin",
+        "name": "Elaina Mezzasalma & Nicole Gould",
+        "time_mark": "254-09",
+        "year": 2010,
+        "other_record": "District"
+      },
+      {
+        "event": "2x Shot",
+        "name": "Kristen Batts & Chikia Cole",
+        "time_mark": "64-7.5",
+        "year": 2004
+      },
+      {
+        "event": "2x Long Jump",
+        "name": "Aly D'Agostino & Gianna Gomez",
+        "time_mark": "33-8",
+        "year": 2018,
+        "other_record": "District"
+      },
+      {
+        "event": "2x Triple Jump",
+        "name": "Aly D'Agostino & Gianna Gomez",
+        "time_mark": "67-4.75",
+        "year": 2018,
+        "other_record": "District"
+      },
+      {
+        "event": "2x Pole Vault",
+        "name": "Jenna Meagher & Megan Donovan",
+        "time_mark": "17-6",
+        "year": 2006,
+        "other_record": "District"
+      },
+      {
+        "event": "2x High Jump",
+        "name": "Amanda Mazzela & Brianna Nicholls",
+        "time_mark": "9-06",
+        "year": 2010
+      }
+    ]
+  
+  

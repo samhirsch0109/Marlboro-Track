@@ -3,8 +3,9 @@ $('.logo-image').on('mouseenter', function (event) {
 });
 
 $('.logo-image').on('mouseleave', function (event) {
-    $(event.currentTarget).next('.card-description').fadeOut(100);
+    $(event.currentTarget).next('.card-description').fadeOut(1000); // Fades out smoothly when hover ends
 });
+
 // Vue instance for Girls XC Records
 const girlsXCApp = Vue.createApp({
     data() {
