@@ -1,0 +1,207 @@
+[
+    {
+      "race": "55 Meter Dash",
+      "name": "A. Unachukwu",
+      "time": "7.0 (H), 7.19 (FAT)",
+      "year": "2006, 2008"
+    },
+    {
+      "race": "60 Meter Dash",
+      "name": "A. Unachukwu",
+      "time": "7.79 (FAT)",
+      "year": 2009
+    },
+    {
+      "race": "55 Meter Hurdles",
+      "name": "E. Gonzalez",
+      "time": "8.43 (FAT)",
+      "year": 2025
+    },
+    {
+      "race": "60 Meter Hurdles",
+      "name": "A. Gonzalez",
+      "time": "9.10 (FAT)",
+      "year": 2024
+    },
+    {
+      "race": "200 Meter Dash",
+      "name": "D. Spano",
+      "time": "25.6 (H), 25.71 (FAT)",
+      "year": 2015
+    },
+    {
+      "race": "300 Meter Dash",
+      "name": "A. Unachukwu",
+      "time": "41.3 (H)",
+      "year": 2008
+    },
+    {
+      "race": "400 Meter Dash",
+      "name": "A. Unachukwu",
+      "time": "57.69 (FAT)",
+      "year": 2008
+    },
+    {
+      "race": "600 Meter Run",
+      "name": "B. Mullan",
+      "time": "1:47.88 (FAT)",
+      "year": 2018
+    },
+    {
+      "race": "800 Meter Run",
+      "name": "B. Pietrosh",
+      "time": "2:17.61 (FAT)",
+      "year": 2009
+    },
+    {
+      "race": "1000 Meter Run",
+      "name": "R. Weinberger",
+      "time": "3:14.84 (FAT)",
+      "year": 2011
+    },
+    {
+      "race": "1500 Meter Run",
+      "name": "L. Pietrosh",
+      "time": "4:48.38 (FAT)",
+      "year": 2009
+    },
+    {
+      "race": "1500 Meter Race Walk",
+      "name": "K. Vicino",
+      "time": "9:11.21 (FAT)",
+      "year": 2012
+    },
+    {
+      "race": "1600 Meter Run",
+      "name": "L. Pietrosh",
+      "time": "5:06.09 (FAT)",
+      "year": 2009
+    },
+    {
+      "race": "1 Mile Run",
+      "name": "A. Bartelloni",
+      "time": "5:16.8 (H)",
+      "year": 2015
+    },
+    {
+      "race": "3000 Meter Run",
+      "name": "E. Luo",
+      "time": "10:33.30 (FAT) enroute",
+      "year": 2022
+    },
+    {
+      "race": "3200 Meter Run",
+      "name": "E. Luo",
+      "time": "11:10.80 (FAT)",
+      "year": 2023
+    },
+    {
+      "race": "Two Mile Run",
+      "name": "E. Luo",
+      "time": "11:17.08",
+      "year": 2022
+    },
+    {
+      "race": "5000 Meter Run",
+      "name": "E. Luo",
+      "time": "18:26.71",
+      "year": 2023
+    },
+    {
+      "race": "20lb Weight Throw",
+      "name": "K. Batts",
+      "time": "40’ 5 ¾”",
+      "year": 2007
+    },
+    {
+      "race": "Shot Put",
+      "name": "T. Harris",
+      "time": "41' 8 ¾”",
+      "year": 1993
+    },
+    {
+      "race": "Triple Jump",
+      "name": "A. Unachukwu",
+      "time": "39-5” (12.01m)",
+      "year": 2009
+    },
+    {
+      "race": "Long Jump",
+      "name": "E. Gonzalez",
+      "time": "18’2.25”",
+      "year": 2025
+    },
+    {
+      "race": "High Jump",
+      "name": "L. Biggs",
+      "time": "5’2”",
+      "year": null
+    },
+    {
+      "race": "Pole Vault",
+      "name": "J. Meagher, A. Zhou",
+      "time": "10’0”",
+      "year": "2007, 2015"
+    },
+    {
+      "race": "4x200 Meter Relay",
+      "name": "A. Zhou, L. Khizir, T. Ryan, D. Spano",
+      "time": "1:47.15 (FAT)",
+      "year": 2015
+    },
+    {
+      "race": "4x400 Meter Relay",
+      "name": "E. Mezzasalma, L. Pietrosh, B. Pietrosh, A. Unachukwu",
+      "time": "4:05.03 (FAT)",
+      "year": 2009
+    },
+    {
+      "race": "4x800 Meter Relay",
+      "name": "J. Vetrano, R. Weinberger, L. Pietrosh, B. Pietrosh",
+      "time": "9:36.5 (H)",
+      "year": 2009
+    },
+    {
+      "race": "Distance Medley Relay",
+      "name": "R. Weinberger, A. Unachukwu, B. Pietrosh, L. Pietrosh",
+      "time": "12:18.00 (FAT)",
+      "year": 2009
+    },
+    {
+      "race": "Sprint Medley Relay",
+      "name": "D. Spano, L. Khizir, T. Ryan, A. Bartelloni",
+      "time": "4:14.09 (FAT)",
+      "year": 2015
+    },
+    {
+      "race": "Shuttle Hurdles (4x60M)",
+      "name": "Unknown",
+      "time": "36.96 (FAT)",
+      "year": 1997
+    },
+    {
+      "race": "Shuttle Hurdles (4x55M)",
+      "name": "L. Newman, G. Gomez, A. Friedman, B. Mullan",
+      "time": "36.14 (FAT)",
+      "year": 2017
+    },
+    {
+      "race": "Shot Put Relay",
+      "name": "T. Harris, Y. Deliz",
+      "time": "71’07”",
+      "year": 1990
+    },
+    {
+      "race": "High Jump Relay",
+      "name": "S. Baldwin, L. Leoncavello",
+      "time": "8’10”",
+      "year": 1997
+    },
+    {
+      "race": "Pole Vault Relay",
+      "name": "T. Ryan & A. Zhou",
+      "time": "17’6”",
+      "year": 2015
+    }
+  ]
+  

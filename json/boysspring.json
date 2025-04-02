@@ -1,218 +1,203 @@
-{
-    "events": [
-      {
-        "event": "100 Meter Dash",
-        "name": "Earl Grey",
-        "time_mark": "10.77 (FAT)",
-        "year": 2004,
-        "other_record": "District (FAT)"
-      },
-      {
-        "event": "200 Meter Dash",
-        "name": "Earl Grey",
-        "time_mark": "21.57 (FAT)",
-        "year": 2004,
-        "other_record": "District (FAT)"
-      },
-      {
-        "event": "400 Meter Dash",
-        "name": "Earl Grey",
-        "time_mark": "48.32 (FAT)",
-        "year": 2003,
-        "other_record": "District (FAT)"
-      },
-      {
-        "event": "800 Meter Run",
-        "name": "Bob Roche",
-        "time_mark": "1:51.6 (h)",
-        "year": 1985
-      },
-      {
-        "event": "1500 Meter Run",
-        "name": "Sean Dailey",
-        "time_mark": "3:56.6 (h)",
-        "year": 1981
-      },
-      {
-        "event": "1600 Meter Run",
-        "name": "Ty Jensen",
-        "time_mark": "4:12.18 (FAT)",
-        "year": 2001
-      },
-      {
-        "event": "1 Mile",
-        "name": "Guy Emmons",
-        "time_mark": "4:11.4 (h)",
-        "year": 1978
-      },
-      {
-        "event": "3000 Meter Run",
-        "name": "Daniel Torrillo",
-        "time_mark": "8:46.43 (FAT) enroute",
-        "year": 2023
-      },
-      {
-        "event": "3200 Meter Run",
-        "name": "Daniel Torrillo",
-        "time_mark": "9:13.10 (FAT)",
-        "year": 2023
-      },
-      {
-        "event": "Two Mile Run",
-        "name": "Daniel Torrillo",
-        "time_mark": "9:21.71 (FAT)",
-        "year": 2023
-      },
-      {
-        "event": "110 High Hurdles",
-        "name": "Jim Orrange",
-        "time_mark": "13.8 (h)",
-        "year": 1986
-      },
-      {
-        "event": "300 Low Hurdles",
-        "name": "",
-        "time_mark": "",
-        "year": ""
-      },
-      {
-        "event": "400 Intermediate Hurdles",
-        "name": "Jim Orrange",
-        "time_mark": "52.38 (FAT)",
-        "year": 1986
-      },
-      {
-        "event": "2000 Meter Steeplechase",
-        "name": "",
-        "time_mark": "",
-        "year": ""
-      },
-      {
-        "event": "Shot Put",
-        "name": "Jason Williams",
-        "time_mark": "53-04.5",
-        "year": 1992
-      },
-      {
-        "event": "Discus",
-        "name": "Jason Williams",
-        "time_mark": "162-9",
-        "year": 1992
-      },
-      {
-        "event": "Hammer",
-        "name": "",
-        "time_mark": "",
-        "year": ""
-      },
-      {
-        "event": "Javelin (old)",
-        "name": "Rich Leidy",
-        "time_mark": "187-5",
-        "year": 1986
-      },
-      {
-        "event": "Javelin (Rubber Tip)",
-        "name": "Mark Orlando",
-        "time_mark": "180-07",
-        "year": 2015
-      },
-      {
-        "event": "Pole Vault",
-        "name": "CJ Meagher, Doug Fertig",
-        "time_mark": "14-6",
-        "year": "2003, 2004"
-      },
-      {
-        "event": "Long Jump",
-        "name": "Luke Rapley",
-        "time_mark": "22-02.25",
-        "year": 2018
-      },
-      {
-        "event": "Triple Jump",
-        "name": "Jason Potterton",
-        "time_mark": "43-8",
-        "year": 2020
-      },
-      {
-        "event": "High Jump",
-        "name": "Doyle Whitson, Andrew Salomon",
-        "time_mark": "6-6",
-        "year": "1979, 2003"
-      },
-      {
-        "event": "4x100",
-        "name": "Darren Degregorio, Josh Brown, Matt Boucher, Kamerin Nash",
-        "time_mark": "44.39 (FAT)",
-        "year": 2024
-      },
-      {
-        "event": "4x200",
-        "name": "",
-        "time_mark": "1:32.48 (FAT)",
-        "year": 2019
-      },
-      {
-        "event": "4x400",
-        "name": "Steve Herring, Craig Weinstein, Jim Orrange & Bob Roche, Eugene Graves, Samil Jani, Luke Rapley & Eric Shaker",
-        "time_mark": "3:22.4 (h), 3:22.54 (FAT)",
-        "year": "1985, 2019"
-      },
-      {
-        "event": "4x800",
-        "name": "",
-        "time_mark": "7:48.92 (FAT)",
-        "year": 2011
-      },
-      {
-        "event": "4x1600",
-        "name": "",
-        "time_mark": "19:25.66 (FAT)",
-        "year": 2023
-      },
-      {
-        "event": "Sprint Medley (200, 200, 400, 800)",
-        "name": "",
-        "time_mark": "3:33.11 (FAT)",
-        "year": 2013
-      },
-      {
-        "event": "Distance Medley (1200, 400, 800, 1600)",
-        "name": "",
-        "time_mark": "10:33.57 (FAT)",
-        "year": ""
-      },
-      {
-        "event": "Super Sprint Medley (100, 100, 200, 400)",
-        "name": "",
-        "time_mark": "1:36.50 (FAT)",
-        "year": ""
-      },
-      {
-        "event": "Swedish Medley (100, 200, 300, 400) 1000 Meters",
-        "name": "",
-        "time_mark": "2:00.88 (FAT)",
-        "year": 2016
-      },
-      {
-        "event": "3x400IH",
-        "name": "",
-        "time_mark": "",
-        "year": ""
-      },
-      {
-        "event": "Shuttle Hurdles",
-        "name": "",
-        "time_mark": "",
-        "year": ""
-      },
-      {
-        "event": "Mixed 4x400",
-        "name": "Josh Brown, Jazmyn Brown, Sofie Giarratana, Matt Pignata",
-        "time_mark": "3:54.08 (FAT)",
-        "year": 2024
-      }
-    ]
+[
+  {
+    "race": "100 Meter Dash",
+    "name": "Earl Grey",
+    "time": "10.77 (FAT)",
+    "year": 2004,
+    "other_record": "District (FAT)"
+  },
+  {
+    "race": "200 Meter Dash",
+    "name": "Earl Grey",
+    "time": "21.57 (FAT)",
+    "year": 2004,
+    "other_record": "District (FAT)"
+  },
+  {
+    "race": "400 Meter Dash",
+    "name": "Earl Grey",
+    "time": "48.32 (FAT)",
+    "year": 2003,
+    "other_record": "District (FAT)"
+  },
+  {
+    "race": "800 Meter Run",
+    "name": "Bob Roche",
+    "time": "1:51.6 (h)",
+    "year": 1985
+  },
+  {
+    "race": "1500 Meter Run",
+    "name": "Sean Dailey",
+    "time": "3:56.6 (h)",
+    "year": 1981
+  },
+  {
+    "race": "1600 Meter Run",
+    "name": "Ty Jensen",
+    "time": "4:12.18 (FAT)",
+    "year": 2001
+  },
+  {
+    "race": "1 Mile",
+    "name": "Guy Emmons",
+    "time": "4:11.4 (h)",
+    "year": 1978
+  },
+  {
+    "race": "3000 Meter Run",
+    "name": "Daniel Torrillo",
+    "time": "8:46.43 (FAT) enroute",
+    "year": 2023
+  },
+  {
+    "race": "3200 Meter Run",
+    "name": "Daniel Torrillo",
+    "time": "9:13.10 (FAT)",
+    "year": 2023
+  },
+  {
+    "race": "Two Mile Run",
+    "name": "Daniel Torrillo",
+    "time": "9:21.71 (FAT)",
+    "year": 2023
+  },
+  {
+    "race": "110 High Hurdles",
+    "name": "Jim Orrange",
+    "time": "13.8 (h)",
+    "year": 1986
+  },
+  {
+    "race": "400 Intermediate Hurdles",
+    "name": "Jim Orrange",
+    "time": "52.38 (FAT)",
+    "year": 1986
+  },
+  {
+    "race": "2000 Meter Steeplechase",
+    "name": "",
+    "time": "",
+    "year": ""
+  },
+  {
+    "race": "Shot Put",
+    "name": "Jason Williams",
+    "time": "53-04.5",
+    "year": 1992
+  },
+  {
+    "race": "Discus",
+    "name": "Jason Williams",
+    "time": "162-9",
+    "year": 1992
+  },
+  {
+    "race": "Javelin (old)",
+    "name": "Rich Leidy",
+    "time": "187-5",
+    "year": 1986
+  },
+  {
+    "race": "Javelin (Rubber Tip)",
+    "name": "Mark Orlando",
+    "time": "180-07",
+    "year": 2015
+  },
+  {
+    "race": "Pole Vault",
+    "name": "CJ Meagher, Doug Fertig",
+    "time": "14-6",
+    "year": "2003, 2004"
+  },
+  {
+    "race": "Long Jump",
+    "name": "Luke Rapley",
+    "time": "22-02.25",
+    "year": 2018
+  },
+  {
+    "race": "Triple Jump",
+    "name": "Jason Potterton",
+    "time": "43-8",
+    "year": 2020
+  },
+  {
+    "race": "High Jump",
+    "name": "Doyle Whitson, Andrew Salomon",
+    "time": "6-6",
+    "year": "1979, 2003"
+  },
+  {
+    "race": "4x100",
+    "name": "Darren Degregorio, Josh Brown, Matt Boucher, Kamerin Nash",
+    "time": "44.39 (FAT)",
+    "year": 2024
+  },
+  {
+    "race": "4x200",
+    "name": "",
+    "time": "1:32.48 (FAT)",
+    "year": 2019
+  },
+  {
+    "race": "4x400",
+    "name": "Steve Herring, Craig Weinstein, Jim Orrange & Bob Roche, Eugene Graves, Samil Jani, Luke Rapley & Eric Shaker",
+    "time": "3:22.4 (h), 3:22.54 (FAT)",
+    "year": "1985, 2019"
+  },
+  {
+    "race": "4x800",
+    "name": "",
+    "time": "7:48.92 (FAT)",
+    "year": 2011
+  },
+  {
+    "race": "4x1600",
+    "name": "",
+    "time": "19:25.66 (FAT)",
+    "year": 2023
+  },
+  {
+    "race": "Sprint Medley (200, 200, 400, 800)",
+    "name": "",
+    "time": "3:33.11 (FAT)",
+    "year": 2013
+  },
+  {
+    "race": "Distance Medley (1200, 400, 800, 1600)",
+    "name": "",
+    "time": "10:33.57 (FAT)",
+    "year": ""
+  },
+  {
+    "race": "Super Sprint Medley (100, 100, 200, 400)",
+    "name": "",
+    "time": "1:36.50 (FAT)",
+    "year": ""
+  },
+  {
+    "race": "Swedish Medley (100, 200, 300, 400) 1000 Meters",
+    "name": "",
+    "time": "2:00.88 (FAT)",
+    "year": 2016
+  },
+  {
+    "race": "3x400IH",
+    "name": "",
+    "time": "",
+    "year": ""
+  },
+  {
+    "race": "Shuttle Hurdles",
+    "name": "",
+    "time": "",
+    "year": ""
+  },
+  {
+    "race": "Mixed 4x400",
+    "name": "Josh Brown, Jazmyn Brown, Sofie Giarratana, Matt Pignata",
+    "time": "3:54.08 (FAT)",
+    "year": 2024
   }
-  
+]
