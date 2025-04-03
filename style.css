@@ -294,7 +294,7 @@ ul.words {
 ul.words li {
     display: flex;
     align-items: center;
-    background: rgba(20, 47, 86, 0.1);
+    background: #c7cdd6;
     padding: 10px;
     margin: 5px 0;
     border-radius: 5px;
@@ -303,7 +303,7 @@ ul.words li {
 
 /* List Hover Effect */
 ul.words li:hover {
-    background: rgba(20, 47, 86, 0.3);
+    background: #F8B822;
     transform: scale(1.05);
 }
 
