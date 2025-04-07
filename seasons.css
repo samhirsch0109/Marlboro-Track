@@ -3,7 +3,14 @@ body {
 }
 
 h1.main-content {
-    padding-top: 30px;
+    font-size: 3rem;
+    /* ~48px */
+    font-weight: 700;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #082D65;
 }
 
 nav {
@@ -121,37 +128,48 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 15px;
-    background: rgb(165, 148, 0);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
     overflow: hidden;
+    border: 2px solid #F8B822 !important;
+    /* <-- Table outer border */
 }
 
 /* Table Header */
 th {
     background: linear-gradient(135deg, #007bff, #0056b3);
-    /* Smooth gradient */
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 14px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
+table.table th {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    color: #F8B822 !important;
+    font-weight: bold;
+    padding: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
 /* Table Rows */
 td {
     padding: 12px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #F8B822 !important;
 }
 
 /* Alternate Row Colors */
 tr:nth-child(even) {
-    background-color: #f8f9fc;
+    background-color: #f8f9fc !important;
 }
 
 /* Hover Effect */
 tr:hover {
-    background-color: #e3e7f1;
+    background-color: #e3e7f1 !important;
     transition: background 0.3s ease-in-out;
 }
 
@@ -289,7 +307,8 @@ img.img-fluid {
     height: 100%;
     background: rgba(0, 0, 0, 0.6);
     /* Semi-transparent black */
-    color: white;
+    color: #F8B822;
+    background-color: #082D65;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,4 +368,8 @@ img.img-fluid {
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
     opacity: 1;
+}
+
+p {
+    font-family: "redonda", sans-serif;
 }

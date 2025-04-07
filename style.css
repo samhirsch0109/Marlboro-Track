@@ -4,6 +4,13 @@
 
 body {
     background-color: #ebeef1;
+    font-family: "redonda", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p.lead {
+    font-family: "redonda", sans-serif;
 }
 
 nav {
@@ -130,6 +137,10 @@ a.nav-link:hover {
 
 h1 {
     font-family: "pressio", sans-serif;
+}
+
+p {
+    font-family: "redonda", sans-serif;
 }
 
 .row.align-items-center {
@@ -330,4 +341,8 @@ td {
 
 tr:hover {
     background-color: rgba(248, 184, 34, 0.2);
+}
+
+p {
+    font-family: "redonda", sans-serif;
 }
