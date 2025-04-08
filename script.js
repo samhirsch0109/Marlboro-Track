@@ -124,3 +124,19 @@ const girlsSpringApp = Vue.createApp({
 });
 girlsSpringApp.mount("#girlsspring-app");
 //end of girls spring
+
+
+$(document).ready(function () {
+    const button = $("#toggle-btn");
+    const extraEvents = $("#extra-events");
+
+    button.on("click", function () {
+        extraEvents.fadeToggle();
+
+        if (button.hasClass("expanded")) {
+            button.removeClass("expanded").html("➕ Show More");
+        } else {
+            button.addClass("expanded").html("➖ Show Less");
+        }
+    });
+});

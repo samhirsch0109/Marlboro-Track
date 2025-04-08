@@ -123,6 +123,32 @@ a.nav-link:hover {
 }
 
 
+/* Container Cards */
+#girlsxc-app,
+#boysxc-app,
+#girlswinter-app,
+#boyswinter-app,
+#girlsspring-app,
+#boysspring-app {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Subtle Hover Effect */
+#girlsxc-app,
+#boysxc-app,
+#girlswinter-app,
+#boyswinter-app,
+#girlsspring-app,
+#boysspring-app {
+    transform: translateY(-5px);
+}
+
 /* Table Styling */
 table {
     width: 100%;
@@ -132,12 +158,11 @@ table {
     border-radius: 10px;
     overflow: hidden;
     border: 2px solid #F8B822 !important;
-    /* <-- Table outer border */
 }
 
 /* Table Header */
 th {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #142F56, #3C5078);
     color: rgb(255, 255, 255);
     font-weight: bold;
     padding: 14px;
@@ -146,7 +171,7 @@ th {
 }
 
 table.table th {
-    background: linear-gradient(135deg, #007bff, #0056b3);
+    background: linear-gradient(135deg, #142F56, #3C5078);
     color: #F8B822 !important;
     font-weight: bold;
     padding: 14px;
@@ -154,12 +179,12 @@ table.table th {
     letter-spacing: 1px;
 }
 
-
 /* Table Rows */
 td {
     padding: 12px;
     text-align: center;
-    border-bottom: 1px solid #F8B822 !important;
+    border: 2px solid #F8B822;
+    /* <-- Border just around the data */
 }
 
 /* Alternate Row Colors */
@@ -385,4 +410,18 @@ p {
 
 h2 {
     margin-bottom: 0.5rem;
+}
+
+#toggle-btn {
+    transition: all 0.3s ease;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    background-color: #082D65;
+    color: #F8B822;
+}
+
+#toggle-btn:hover {
+    background-color: #142F56;
+    color: #F8B822;
+    box-shadow: 0 0.5rem 1rem rgba(13, 110, 253, 0.2);
 }
