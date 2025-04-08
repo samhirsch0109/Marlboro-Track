@@ -6,8 +6,8 @@ h1.main-content {
     font-size: 3rem;
     /* ~48px */
     font-weight: 700;
-    padding-top: 60px;
-    margin-bottom: 20px;
+    padding-top: 30px;
+    margin-bottom: 5px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     color: #082D65;
@@ -227,7 +227,6 @@ footer .col-md-4 {
 footer .text-center {
     background-color: #082D65;
     /* Darker background for the bottom text */
-    padding: 10px 0;
     font-size: 0.9rem;
 }
 
@@ -372,4 +371,18 @@ img.img-fluid {
 
 p {
     font-family: "redonda", sans-serif;
+}
+
+.section-padding {
+    padding-top: 2rem;
+    /* or less */
+    padding-bottom: 2rem;
+}
+
+.class-details {
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
 }
