@@ -1,104 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Marlboro Cross Country and Track & Field</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS v5.3.2 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="seasons.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/flj6loo.css">
+
+<head>
+  <title>Marlboro Cross Country and Track & Field</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS v5.3.2 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="seasons.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/flj6loo.css">
 
 
-  </head>
+</head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-none bg-body-light hover-nav fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img class="logo" src="imgs/mhslogo1.png" width="40" height="40" />
-            </a>
-            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link" href="xc.html"> XC </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="winter.html"> Winter </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="spring.html"> Spring </a>
-                    </li>
-                </ul>
-            </div>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-none bg-body-light hover-nav fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="imgs/mhslogo1.png" width="40" height="40" />
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="xc.html"> XC </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="winter.html"> Winter </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="spring.html"> Spring </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-      
-    </header>
 
-    <div class="text-center main-content mb-3">
-        <h1 class="main-content"> Cross Country</h1>
+  </header>
 
-        <div class="container">
-          <div class="row align-items-center my-2">
-            <div class="col-12 col-lg-6 text-center">
-              <img
-                src="imgs/xcteam.png"
-                class="img-fluid rounded-3 shadow-lg styled-image"
-                alt="Cross Country Team"
-              />
-            </div>
-            <div class="col-12 col-lg-6 p-4">
-              <p class="class-details">
-                <h2 class="fw-bold">What You'll Do in Cross Country</h2>
-                The Cross Country course teaches students the fundamentals of
-                distance running, stamina building, and race strategies. Students
-                will participate in both individual and team events, competing in
-                various cross country races, while developing skills in pacing,
-                endurance, and mental toughness.
-              </p>
-            </div>
-          </div>
+  <div class="text-center main-content mb-3">
+    <h1 class="main-content"> Cross Country</h1>
 
-          <div class="container text-center">
-            <h2 class="mt-2 fw-bold">Events</h2>
-            <div class="mb-3">
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item"><strong>Monmouth Battlefield:</strong> A challenging 5K race through scenic terrain.</li>
-                <li class="list-group-item"><strong>Ocean County Park:</strong> A fast-paced race featuring a variety of terrain.</li>
-                <li class="list-group-item"><strong>Holmdel Park:</strong> Known for its hilly course, perfect for testing endurance.</li>
-          
-                <!-- Extra events wrapped in span (inline container) -->
-                <span id="extra-events" style="display: none;">
-                  <li class="list-group-item"><strong>Thompson Park - 5K:</strong> A competitive event that focuses on stamina and pacing.</li>
-                  <li class="list-group-item"><strong>Garrett Mountain:</strong> A challenging 5K with varying elevations.</li>
-                  <li class="list-group-item"><strong>Warinanco Park:</strong> A fun yet demanding 5K race perfect for building stamina.</li>
-                </span>
-              </ul>
-          
-              <button id="toggle-btn" class="btn btn-outline-primary mt-3 px-4 py-2 rounded-3 shadow-sm fw-semibold">
-  <span class="blue-icon">➕</span> Show More
-              </button>
-                          </div>
-          </div>
-          
-            
+    <div class="container">
+      <div class="row align-items-center my-2">
+        <div class="col-12 col-lg-6 text-center">
+          <img src="imgs/xcteam.png" class="img-fluid rounded-3 shadow-lg styled-image" alt="Cross Country Team" />
+        </div>
+        <div class="col-12 col-lg-6 p-4">
+          <p class="class-details">
+          <h2 class="fw-bold">What You'll Do in Cross Country</h2>
+          Cross country is a great way for athletes to build endurance, improve their physical fitness, and develop
+          mental toughness. It teaches discipline, perseverance, and goal-setting, all while creating a strong sense of
+          teamwork and community. Plus, running outdoors through parks and trails makes it a fun and rewarding
+          experience!
+          </p>
+        </div>
+      </div>
+
+      <div class="container text-center">
+        <h2 class="mt-2 fw-bold">Cross Country Events</h2>
+        <div class="mb-3">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>5K Races:</strong> The standard varsity distance raced across most
+              invitationals and championship meets in NJ.</li>
+            <li class="list-group-item"><strong>2 Mile Races:</strong> Typically run by freshmen or JV runners to build
+              experience and endurance.</li>
+
+            <!-- Hidden extra race info -->
+            <span id="extra-events" style="display: none;">
+              <li class="list-group-item"><strong>Course Variety:</strong> Races take place on trails, grass, and hills
+                — often in parks like Holmdel, Thompson, and Ocean County.</li>
+              <li class="list-group-item"><strong>Team Scoring:</strong> Cross country emphasizes team performance, with
+                the top five runners' placements determining team scores.</li>
+              <li class="list-group-item"><strong>Championship Levels:</strong> Includes dual meets, conference, county,
+                sectional, group, and Meet of Champions.</li>
+            </span>
+          </ul>
+
+          <button id="toggle-btn" class="btn btn-outline-primary mt-3 px-4 py-2 rounded-3 shadow-sm fw-semibold">
+            <span class="blue-icon">➕</span> Show More
+          </button>
+        </div>
+      </div>
+
+
       </section>
 
       <div class="container text-center mb-5">
@@ -111,7 +106,7 @@
               </div>
             </div>
           </div>
-      
+
           <div class="col-md-6 col-sm-6 img p-3 mb-2 d-flex justify-content-center">
             <div class="image-container">
               <img src="imgs/holmdel park.png" alt="Holmdel Park" class="img-fluid">
@@ -122,123 +117,120 @@
           </div>
         </div>
       </div>
-      
-          
+
+
       </section>
 
       <section>
         <div class="row">
           <!-- Girls Records -->
           <div class="col-12 col-lg-6 text-center">
-              <div id="girlsxc-app">
-                  <h1>Top Girls Records</h1>
-                  <table class="table table-bordered">
-                      <thead>
-                          <tr>
-                              <th>Race</th>
-                              <th>Runner</th>
-                              <th>Time</th>
-                              <th>Year</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr v-for="record in raceRecords" :key="record.race">
-                              <td>{{ record.race }}</td>
-                              <td>{{ record.name }}</td>
-                              <td>{{ record.time }}</td>
-                              <td>{{ record.year }}</td>
-                          </tr>
-                      </tbody>
-                  </table>
-              </div>
+            <div id="girlsxc-app">
+              <h1>Top Girls Records</h1>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Race</th>
+                    <th>Runner</th>
+                    <th>Time</th>
+                    <th>Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="record in raceRecords" :key="record.race">
+                    <td>{{ record.race }}</td>
+                    <td>{{ record.name }}</td>
+                    <td>{{ record.time }}</td>
+                    <td>{{ record.year }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-      
+
           <!-- Top Race Records -->
           <div class="col-12 col-lg-6 text-center">
-              <div id="boysxc-app">
-                  <h1>Top Boys Records</h1>
-                  <table class="table table-bordered">
-                      <thead>
-                          <tr>
-                              <th>Race</th>
-                              <th>Runner</th>
-                              <th>Time</th>
-                              <th>Year</th>
-                          </tr>
-                      </thead>
-                      <tbody>
-                          <tr v-for="record in raceRecords" :key="record.race">
-                              <td>{{ record.race }}</td>
-                              <td>{{ record.name }}</td>
-                              <td>{{ record.time }}</td>
-                              <td>{{ record.year }}</td>
-                          </tr>
-                      </tbody>
-                  </table>
-              </div>
-          </div>
-      </div>
-      <!--end of tables-->
-
-      <!--start of carousel -->
-      <div class="container mt-2">
-        <div id="multiCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <!-- First slide -->
-                <div class="carousel-item active">
-                    <div class="row justify-content-center text-center g-2">
-                        <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                            <img src="imgs/xc2 (1).jpg" class="img-fluid rounded" alt="1">
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                            <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="2">
-                        </div>
-                        <div class="col-lg-4 d-none d-lg-block mb-2">
-                            <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="3">
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Second slide -->
-                <div class="carousel-item">
-                    <div class="row justify-content-center text-center g-2">
-                        <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                            <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="4">
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                            <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="5">
-                        </div>
-                        <div class="col-lg-4 d-none d-lg-block mb-2">
-                            <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="6">
-                        </div>
-                    </div>
-                </div>
+            <div id="boysxc-app">
+              <h1>Top Boys Records</h1>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Race</th>
+                    <th>Runner</th>
+                    <th>Time</th>
+                    <th>Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="record in raceRecords" :key="record.race">
+                    <td>{{ record.race }}</td>
+                    <td>{{ record.name }}</td>
+                    <td>{{ record.time }}</td>
+                    <td>{{ record.year }}</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
-    
+          </div>
+        </div>
+        <!--end of tables-->
+
+        <!--start of carousel -->
+        <div class="container mt-2">
+          <div id="multiCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <!-- First slide -->
+              <div class="carousel-item active">
+                <div class="row justify-content-center text-center g-2">
+                  <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                    <img src="imgs/xcboys.jpeg" class="img-fluid rounded" alt="1">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                    <img src="imgs/carousel2.jpeg" class="img-fluid rounded" alt="2">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                    <img src="imgs/carousel3.jpeg" class="img-fluid rounded" alt="3">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second slide -->
+              <div class="carousel-item">
+                <div class="row justify-content-center text-center g-2">
+                  <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                    <img src="imgs/carousel4.jpeg" class="img-fluid rounded" alt="4">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                    <img src="imgs/carousel5.jpeg" class="img-fluid rounded" alt="5">
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                    <img src="imgs/rainbow.jpeg" class="img-fluid rounded" alt="6">
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <a class="carousel-control-prev" href="#multiCarousel" role="button" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
             </a>
             <a class="carousel-control-next" href="#multiCarousel" role="button" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
             </a>
+          </div>
         </div>
-    </div>
-    <footer> </footer>
+        <footer> </footer>
 
-    <script
-    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-    crossorigin="anonymous"
-  ></script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+          integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+          integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+          crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-  <script src="script.js"> </script>
+        <script src="script.js"> </script>
 </body>
+
 </html>
