@@ -125,7 +125,7 @@ const girlsSpringApp = Vue.createApp({
 girlsSpringApp.mount("#girlsspring-app");
 //end of girls spring
 
-
+//show more/less button
 $(document).ready(function () {
     const button = $("#toggle-btn");
     const extraEvents = $("#extra-events");

@@ -95,6 +95,9 @@ a.nav-link:hover {
 }
 
 
+.row {
+    flex-wrap: wrap;
+}
 
 /* Container Cards */
 #girlsxc-app,
@@ -103,9 +106,11 @@ a.nav-link:hover {
 #boyswinter-app,
 #girlsspring-app,
 #boysspring-app {
-    max-width: 700px;
     margin: 30px auto;
     padding: 25px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     background: white;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -122,42 +127,30 @@ a.nav-link:hover {
     transform: translateY(-5px);
 }
 
-
-/* Container Cards */
-#girlsxc-app,
-#boysxc-app,
-#girlswinter-app,
-#boyswinter-app,
-#girlsspring-app,
-#boysspring-app {
-    max-width: 700px;
-    margin: 30px auto;
-    padding: 25px;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
+.row {
+    display: flex;
+    align-items: stretch;
+    /* All children (columns) will have the same height */
 }
 
-/* Subtle Hover Effect */
-#girlsxc-app,
-#boysxc-app,
-#girlswinter-app,
-#boyswinter-app,
-#girlsspring-app,
-#boysspring-app {
-    transform: translateY(-5px);
+.col-12.col-lg-6 {
+    display: flex;
+    flex-direction: column;
 }
 
-/* Table Styling */
+
+
 table {
-    width: 100%;
+    table-layout: fixed;
     border-collapse: collapse;
     margin-top: 15px;
     background: rgb(255, 255, 255);
     border-radius: 10px;
     overflow: hidden;
+    min-height: 300px;
     border: 2px solid #F8B822 !important;
+    flex-grow: 1;
+    height: 100%;
 }
 
 /* Table Header */
@@ -169,6 +162,13 @@ th {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
+
+td,
+th {
+    height: 50px;
+    /* control individual cell height if needed */
+}
+
 
 table.table th {
     background: linear-gradient(135deg, #142F56, #3C5078);
