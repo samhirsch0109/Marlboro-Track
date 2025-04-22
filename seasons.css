@@ -115,16 +115,8 @@ a.nav-link:hover {
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
-}
-
-/* Subtle Hover Effect */
-#girlsxc-app,
-#boysxc-app,
-#girlswinter-app,
-#boyswinter-app,
-#girlsspring-app,
-#boysspring-app {
-    transform: translateY(-5px);
+    max-width: 100%;
+    overflow-x: auto;
 }
 
 .row {
@@ -141,17 +133,24 @@ a.nav-link:hover {
 
 
 table {
-    table-layout: fixed;
+    width: 100%;
+    table-layout: auto;
     border-collapse: collapse;
     margin-top: 15px;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
     border-radius: 10px;
     overflow: hidden;
-    min-height: 300px;
-    border: 2px solid #F8B822 !important;
-    flex-grow: 1;
-    height: 100%;
+    border: 2px solid #F8B822;
 }
+
+.table-wrapper {
+    max-height: 600px;
+    /* Adjust height as needed */
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 100%;
+}
+
 
 /* Table Header */
 th {

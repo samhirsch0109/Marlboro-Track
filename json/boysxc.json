@@ -1,112 +1,98 @@
 [
-    {
-      "race": "Thompson Park - Two Mile",
-      "name": "Emma Luo",
-      "time": "12:48.40",
-      "year": 2022
-    },
-    {
-      "race": "Robert Miller Air Park (2 Mile Course)",
-      "name": "Rachel Weinberger",
-      "time": "13:05",
-      "year": 2009
-    },
-    {
-      "race": "Van Cortlandt Park, NY (2.5 Mile Course)",
-      "name": "Brittany Pietrosh",
-      "time": "16:56",
-      "year": 2007
-    },
-    {
-      "race": "Ocean County Park",
-      "name": "Emma Luo",
-      "time": "18:26.00",
-      "year": 2021
-    },
-    {
-      "race": "Thompson Park - 5K",
-      "name": "Emma Luo",
-      "time": "19:23.32",
-      "year": 2021
-    },
-    {
-      "race": "Bucks Mills Park",
-      "name": "Emma Luo",
-      "time": "19:24.05",
-      "year": 2020
-    },
-    {
-      "race": "Freehold Twp.",
-      "name": "Emma Luo",
-      "time": "19:32.19",
-      "year": 2021
-    },
-    {
-      "race": "Holmdel Park",
-      "name": "Randi Engle",
-      "time": "19:29",
-      "year": 1984
-    },
-    {
-      "race": "Manasquan Res. (Howell)",
-      "name": "Emma Luo",
-      "time": "19:57.0",
-      "year": 2020
-    },
-    {
-      "race": "Big Brook Park",
-      "name": "Emma Luo",
-      "time": "19:59.0",
-      "year": 2020
-    },
-    {
-      "race": "Allaire State Park",
-      "name": "Erica Weitz",
-      "time": "19:59.81",
-      "year": 2004
-    },
-    {
-      "race": "Monmouth Battlefield",
-      "name": "Suzanne Raspa",
-      "time": "20:33",
-      "year": 2008
-    },
-    {
-      "race": "Garrett Mountain",
-      "name": "Suzanne Raspa",
-      "avg_mile": "6:54",
-      "time": "21:24.16",
-      "year": 2007
-    },
-    {
-      "race": "Lincoln Park (3.3 Mile Course)",
-      "name": "Brittany Pietrosh",
-      "time": "20:53.25",
-      "year": 2007
-    },
-    {
-      "race": "Warinanco Park",
-      "name": "Karissa Leary",
-      "time": "21:35.4",
-      "year": 2006
-    },
-    {
-      "race": "Livingston HS Course",
-      "name": "Alexis Bartelloni",
-      "time": "21:42",
-      "year": 2013
-    },
-    {
-      "race": "Greystone Course",
-      "name": "Alexis Bartelloni",
-      "time": "20:21.31",
-      "year": 2014
-    },
-    {
-      "race": "Freedom Park",
-      "name": "Brittany Pietrosh",
-      "time": "20:39.97",
-      "year": 2007
-    }
-  ]
-  
+  {
+    "race": "Shore Conference Championships",
+    "name": "Joseph Friedman",
+    "time": "15:46.0",
+    "year": 2024
+  },
+  {
+    "race": "Shore County Championships",
+    "name": "Charles Maree",
+    "time": "15:59.0",
+    "year": 2016
+  },
+  {
+    "race": "Shore Conference Championships",
+    "name": "Daniel Torrillo",
+    "time": "16:16.0",
+    "year": 2022
+  },
+  {
+    "race": "NJSIAA Group XC Championships",
+    "name": "Ty Jensen",
+    "time": "16:21.1",
+    "year": 2000
+  },
+  {
+    "race": "NJSIAA Group Championships",
+    "name": "Nick Pellegrino",
+    "time": "16:21.5",
+    "year": 1999
+  },
+  {
+    "race": "NJSIAA Central Sectional XC Championship",
+    "name": "Brandon Mazzarella",
+    "time": "16:41.5",
+    "year": 2012
+  },
+  {
+    "race": "Shore Conference Championship",
+    "name": "Eric Jiang",
+    "time": "16:42.0",
+    "year": 2017
+  },
+  {
+    "race": "Shore Conference Championship",
+    "name": "James Gaughan",
+    "time": "16:42.0",
+    "year": 2017
+  },
+  {
+    "race": "Shore Conference Championships",
+    "name": "Richard Riopel",
+    "time": "16:45.0",
+    "year": 2024
+  },
+  {
+    "race": "Battle of Ocean Invite",
+    "name": "CJ Maree",
+    "time": "16:46.0",
+    "year": 2015
+  },
+  {
+    "race": "Shore Conference Championships",
+    "name": "Rohan Shah",
+    "time": "16:53.0",
+    "year": 2024
+  },
+  {
+    "race": "NJSIAA XC Meet of Champions",
+    "name": "Jay Pozner",
+    "time": "16:57.0",
+    "year": 1987
+  },
+  {
+    "race": "NJSIAA Central Sectional Championship",
+    "name": "Rohit Chaki",
+    "time": "17:05.0",
+    "year": 2009
+  },
+  {
+    "race": "NJSIAA Group Championships",
+    "name": "James Coomber",
+    "time": "17:10.4",
+    "year": 2002
+  },
+  {
+    "race": "Battle of Ocean",
+    "name": "Richard Casciano",
+    "time": "17:12.9",
+    "year": 2014
+  },
+  {
+    "race": "Shore Conference Championships",
+    "name": "Eric Chen",
+    "time": "17:16.0",
+    "year": 2018
+  }
+]
