@@ -301,6 +301,7 @@ img.img-fluid {
     /* Prevents text from spilling out */
     transition: transform 0.3s ease-in-out;
     /* Smooth scaling */
+    box-shadow: 0 0 2px;
 }
 
 .image-container:hover {
