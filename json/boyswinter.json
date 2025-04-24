@@ -1,207 +1,160 @@
 [
-    {
-      "race": "100 Meter Dash",
-      "name": "Adaobi Unachukwu",
-      "time": "11.99 (FAT)",
-      "year": 2008
-    },
-    {
-      "race": "200 Meter Dash",
-      "name": "Adaobi Unachukwu",
-      "time": "24.85 (FAT)",
-      "year": 2008
-    },
-    {
-      "race": "400 Meter Dash",
-      "name": "Adaobi Unachukwu",
-      "time": "55.07 (FAT)",
-      "year": 2009,
-      "other_record": "District"
-    },
-    {
-      "race": "800 Meter Run",
-      "name": "Brittany Pietrosh",
-      "time": "2:16.22 (FAT)",
-      "year": 2009
-    },
-    {
-      "race": "1500 Meter Run",
-      "name": "Alexis Bartelloni",
-      "time": "4:56.57 (FAT)",
-      "year": 2014
-    },
-    {
-      "race": "1600 Meter Run",
-      "name": "Alexis Bartelloni",
-      "time": "5:00.08 (FAT)",
-      "year": 2015
-    },
-    {
-      "race": "1 Mile",
-      "name": "Rachel Weinberger",
-      "time": "5:29.67 (FAT)",
-      "year": 2012
-    },
-    {
-      "race": "3000 Meter Run",
-      "name": "Alexis Bartelloni",
-      "time": "10:59.55 (FAT)",
-      "year": 2014
-    },
-    {
-      "race": "3200 Meter Run",
-      "name": "Emma Luo",
-      "time": "11:06.19 (FAT)",
-      "year": 2023
-    },
-    {
-      "race": "100 High Hurdles",
-      "name": "Lisa Billinghurst, Amelia Gonzalez",
-      "time": "15.0 (h), 15.10 (FAT)",
-      "year": "1991, 2023"
-    },
-    {
-      "race": "300 Low Hurdles",
-      "name": "Briana Mullan",
-      "time": "47.84 (FAT)",
-      "year": 2018
-    },
-    {
-      "race": "400 Intermediate Hurdles",
-      "name": "Lisa Billinghurst",
-      "time": "01:04.5",
-      "year": 1991
-    },
-    {
-      "race": "2000 Meter Steeplechase",
-      "name": "Alexis Bartelloni",
-      "time": "7:14.63 (FAT)",
-      "year": 2015
-    },
-    {
-      "race": "Shot Put",
-      "name": "Kristen Batts",
-      "time": "42-4",
-      "year": 2007
-    },
-    {
-      "race": "Discus",
-      "name": "Kristen Batts",
-      "time": "152-4",
-      "year": 2007,
-      "other_record": "Monmouth County & District"
-    },
-    {
-      "race": "Hammer",
-      "name": "Kristen Batts",
-      "time": "109-11",
-      "year": 2007
-    },
-    {
-      "race": "Javelin",
-      "name": "Elaina Mezzasalma",
-      "time": "130-11",
-      "year": 2010,
-      "other_record": "District"
-    },
-    {
-      "race": "Javelin (Rubber Tip)",
-      "name": "Elaina Mezzasalma",
-      "time": "146-11",
-      "year": 2010,
-      "other_record": "District"
-    },
-    {
-      "race": "Pole Vault",
-      "name": "Jenna Meagher",
-      "time": "10-1",
-      "year": 2007
-    },
-    {
-      "race": "Long Jump",
-      "name": "Gianna Gomez",
-      "time": "18-9",
-      "year": 2018
-    },
-    {
-      "race": "Triple Jump",
-      "name": "Adaobi Unachukwu",
-      "time": "40-0",
-      "year": 2009
-    },
-    {
-      "race": "High Jump",
-      "name": "P. Kreiger",
-      "time": "5-6",
-      "year": 1977
-    },
-    {
-      "race": "4x100",
-      "name": "Lauren Newman, Alicia Zhou, Labeeqa Khizir & Danielle Spano",
-      "time": "49.25 (FAT)",
-      "year": 2016,
-      "other_record": "District"
-    },
-    {
-      "race": "4x200",
-      "name": "Alicia Zhou, Kaitlyn Hypolitte, Tara Ryan & Danielle Spano",
-      "time": "1:43.25 (FAT)",
-      "year": 2015,
-      "other_record": "District"
-    },
-    {
-      "race": "4x400",
-      "name": "Elaina Mezzasalma, Ada Unachukwu, Lauren Pietrosh & Brittany Pietrosh",
-      "time": "3:57.08 (FAT)",
-      "year": 2009
-    },
-    {
-      "race": "4x800",
-      "name": "Lauren Pietrosh, Jen Vetrano, Rachel Weinberger & Brittany Pietrosh",
-      "time": "9:33.12 (FAT)",
-      "year": 2009
-    },
-    {
-      "race": "4x1600",
-      "name": "Jenn Ventrano, Jessica McFadden, Lauren Pietrosh & Rachel Weinberger",
-      "time": "22:35.70 (FAT)",
-      "year": 2009
-    },
-    {
-      "race": "Sprint Medley (200, 200, 400, 800)",
-      "name": "Lauren Pietrosh, Emily Cellini, Ada Unachukwu & Brittany Pietrosh",
-      "time": "4:12.28 (FAT)",
-      "year": 2007
-    },
-    {
-      "race": "Distance Medley (1200, 400, 800, 1600)",
-      "name": "Lauren Pietrosh, Ada Unachukwu, Rachel Weinberger & Brittany Pietrosh",
-      "time": "12:14.24 (FAT)",
-      "year": 2009
-    },
-    {
-      "race": "Super Sprint Medley (100, 100, 200, 400)",
-      "name": "Kim McKinnon, Megan Berger, Jessica McFadden & IJ Unachukwu",
-      "time": "1:51.37 (FAT)",
-      "year": 2012
-    },
-    {
-      "race": "3x400IH",
-      "name": "Alexa Friedman, Anna Paziewska & Brianna Mullan",
-      "time": "3:37.16 (FAT)",
-      "year": 2017
-    },
-    {
-      "race": "Shuttle Hurdles",
-      "name": "Lauren Newman, Alexa Freidman, Brianna Mullan & Gianna Gomez",
-      "time": "1:12.18 (FAT)",
-      "year": 2017
-    },
-    {
-      "race": "Mixed 4x400",
-      "name": "Josh Brown, Jazmyn Brown, Sofie Giarratana, Matt Pignata",
-      "time": "3:54.08 (FAT)",
-      "year": 2024
-    }
-  ]
-  
+  {
+    "race": "55m",
+    "name": "Kwaku Amponsah",
+    "time": "6.54",
+    "year": 2016
+  },
+  {
+    "race": "60m",
+    "name": "Matt Boucher",
+    "time": "7.32",
+    "year": 2025
+  },
+  {
+    "race": "100 Meter Dash",
+    "name": "Adaobi Unachukwu",
+    "time": "11.99 (FAT)",
+    "year": 2008
+  },
+  {
+    "race": "200 Meter Dash",
+    "name": "Adaobi Unachukwu",
+    "time": "24.85 (FAT)",
+    "year": 2008
+  },
+  {
+    "race": "200 Meter Dash",
+    "name": "Kwaku Amponsah",
+    "time": "22.94",
+    "year": 2017
+  },
+  {
+    "race": "300 Meter Dash",
+    "name": "Luke Rapley",
+    "time": "38.12",
+    "year": 2018
+  },
+  {
+    "race": "400 Meter Dash",
+    "name": "Chaz Byrnes",
+    "time": "50.97",
+    "year": 2014
+  },
+  {
+    "race": "600 Meter Dash",
+    "name": "Charles Maree",
+    "time": "1:25.32",
+    "year": 2016
+  },
+  {
+    "race": "800 Meter Dash",
+    "name": "Brandon Mazzarella",
+    "time": "1:55.89",
+    "year": 2013
+  },
+  {
+    "race": "1000 Meter Run",
+    "name": "Charles Maree",
+    "time": "2:37.61",
+    "year": 2016
+  },
+  {
+    "race": "1500 Meter Run",
+    "name": "Andrew Pierce",
+    "time": "5:08.34",
+    "year": 2022
+  },
+  {
+    "race": "1600 Meter Run",
+    "name": "Joseph Friedman",
+    "time": "4:30.70",
+    "year": 2024
+  },
+  {
+    "race": "1 Mile",
+    "name": "Charles Maree",
+    "time": "4:44.50",
+    "year": 2016
+  },
+  {
+    "race": "3000 Meter Run",
+    "name": "Dan Torrillo",
+    "time": "8:49.13",
+    "year": 2023,
+    "meet": "Nike Indoor Nationals",
+    "date": "2023-03-10"
+  },
+  {
+    "race": "2 Mile",
+    "name": "Dan Torrillo",
+    "time": "9:24.77",
+    "year": 2023,
+    "meet": "Nike Indoor Nationals",
+    "date": "2023-03-10"
+  },
+  {
+    "race": "3200 Meter Run",
+    "name": "Dan Torrillo",
+    "time": "9:25.18",
+    "year": 2023,
+    "meet": "NJSIAA Meet of Champions",
+    "date": "2023-03-05"
+  },
+  {
+    "race": "4x200 Meter Relay",
+    "time": "1:32.90",
+    "name": "Relay Team",
+    "year": 2014
+  },
+  {
+    "race": "4x400 Meter Relay",
+    "time": "3:31.20",
+    "name": "Relay Team",
+    "year": 2013
+  },
+  {
+    "race": "4x800 Meter Relay",
+    "time": "7:59.32",
+    "name": "Relay Team",
+    "year": 2011
+  },
+  {
+    "race": "DMR",
+    "time": "11:19.66",
+    "name": "Relay Team",
+    "year": 2025,
+    "meet": "NJSIAA Relay Championships - Group 4",
+    "date": "2025-01-20"
+  },
+  {
+    "race": "SMR",
+    "time": "3:36.20",
+    "name": "Relay Team",
+    "year": 2013
+  },
+  {
+    "race": "High Jump",
+    "name": "Matt Linder",
+    "time": "6-6",
+    "year": 2015
+  },
+  {
+    "race": "Long Jump",
+    "name": "Joseph Sewald",
+    "time": "22-8",
+    "year": 2023
+  },
+  {
+    "race": "Shot Put",
+    "name": "Ross Okun",
+    "time": "46-6.5",
+    "year": 2014
+  },
+  {
+    "race": "Triple Jump",
+    "name": "Jason Potterton",
+    "time": "44-1.25",
+    "year": 2020
+  }
+]

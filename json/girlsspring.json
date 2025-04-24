@@ -202,5 +202,36 @@
     "name": "Josh Brown, Jazmyn Brown, Sofie Giarratana, Matt Pignata",
     "time": "3:54.08 (FAT)",
     "year": 2024
-  }
-]
+  },
+    {
+      "race": "2x Discus",
+      "name": "Chikia Cole & Kristen Batts",
+      "time": "215-10",
+      "year": 2004
+    },
+    {
+      "race": "2x Javelin",
+      "name": "Elaina Mezzasalma & Nicole Gould",
+      "time": "254-09",
+      "year": 2010
+    },
+    {
+      "race": "2x Shot",
+      "name": "Kristen Batts & Chikia Cole",
+      "time": "64-7.5",
+      "year": 2004
+    },
+    {
+      "race": "2x Long Jump",
+      "name": "Aly D'Agostino & Gianna Gomez",
+      "time": "33-8",
+      "year": 2018
+    },
+    {
+      "race": "2x Triple Jump",
+      "name": "Aly D'Agostino & Gianna Gomez",
+      "time": "67-4.75",
+      "year": 2018
+    }
+  ]
+  
