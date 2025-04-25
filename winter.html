@@ -1,246 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Marlboro Cross Country and Track & Field</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <!-- Bootstrap CSS v5.3.2 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="seasons.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
-    <link rel="stylesheet" href="https://use.typekit.net/flj6loo.css">
 
-  </head>
+<head>
+  <title>Marlboro Cross Country and Track & Field</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS v5.3.2 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="seasons.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/flj6loo.css">
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-none bg-body-light hover-nav fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <img class="logo" src="imgs/mhslogo1.png" width="40" height="40" />
-            </a>
-            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link" href="xc.html"> XC </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="winter.html"> Winter </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="spring.html"> Spring </a>
-                    </li>
-                </ul>
-            </div>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-none bg-body-light hover-nav fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="logo" src="imgs/mhslogo1.png" width="40" height="40" />
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+            <li class="nav-item">
+              <a class="nav-link" href="xc.html"> XC </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="winter.html"> Winter </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="spring.html"> Spring </a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-      
-    </header>
-    <div class="text-center main-content mb-3">
-      <h1 class="main-content">  Winter Track  </h1>
 
-      <div class="container">
-        <div class="row align-items-center my-2">
-          <div class="col-12 col-lg-6 text-center">
-            <img
-              src="https://picsum.photos/200/200"
-              class="img-fluid rounded-3 shadow-lg styled-image mx-auto d-block"
-              alt="Cross Country Team"
-            />
-          </div>
-          <div class="col-12 col-lg-6 p-4">
-            <p class="class-details">
-              <h2 class="fw-bold">What You'll Do in Winter Track </h2>
-              The Cross Country course teaches students the fundamentals of
-              distance running, stamina building, and race strategies. Students
-              will participate in both individual and team events, competing in
-              various cross country races, while developing skills in pacing,
-              endurance, and mental toughness.
-            </p>
-          </div>
-        </div>
+  </header>
+  <div class="text-center main-content mb-3">
+    <h1 class="main-content"> Winter Track </h1>
 
-        <div class="container text-center">
-          <h2 class="mt-2 fw-bold">Events</h2>
-          <div class="mb-3">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><strong>Sprints:</strong> Includes 55m, 100m, 200m, and 400m dash events testing explosive speed and power.</li>
-              <li class="list-group-item"><strong>Middle Distance:</strong> 600m, 800m, 1000m, and 1500m races focusing on endurance and pacing.</li>
-              <li class="list-group-item"><strong>Distance:</strong> Events such as the 1600m, mile, 3000m, and 3200m testing stamina and strategy.</li>
-              <li class="list-group-item"><strong>Hurdles:</strong> High, low, and intermediate hurdles including 55m hurdles and 400m hurdles.</li>
-        
-              <!-- Hidden extra event categories -->
-              <span id="extra-events" style="display: none;">
-                <li class="list-group-item"><strong>Relays:</strong> Includes 4x100, 4x200, 4x400, 4x800, sprint medley, distance medley, shuttle hurdles, and mixed 4x400 relays.</li>
-                <li class="list-group-item"><strong>Throws:</strong> Shot put, discus, hammer, and javelin events testing strength and technique.</li>
-                <li class="list-group-item"><strong>Jumps:</strong> High jump, long jump, triple jump, and pole vault requiring speed, agility, and coordination.</li>
-              </span>
-            </ul>
-        
-            <button id="toggle-btn" class="btn btn-outline-primary mt-3 px-4 py-2 rounded-3 shadow-sm fw-semibold">
-              <span class="blue-icon">➕</span> Show More
-            </button>
-          </div>
+    <div class="container">
+      <div class="row align-items-center my-2">
+        <div class="col-12 col-lg-6 text-center">
+          <img src="imgs/wintertrack.jpg" class="img-fluid rounded-3 shadow-lg styled-image mx-auto d-block"
+            alt="Cross Country Team" />
         </div>
-        
+        <div class="col-12 col-lg-6 p-4">
+          <p class="class-details">
+          <h2 class="fw-bold"> Why you should do Winter Track </h2>
+          Winter track is a great way for athletes to stay in shape, build speed and endurance, and prepare for spring
+          sports. It teaches discipline, goal-setting, and mental toughness, all in a supportive team environment. Plus,
+          competing indoors adds a fun and unique twist to track season!
 
-    <div class="container text-center mb-5">
-      <div class="row justify-content-center">
-        <div class="col-md-6 col-sm-6 img p-3 mb-2 d-flex justify-content-center">
-          <div class="image-container">
-            <img src="imgs/ocean breeze.jpg" alt="Ocean Breeze" class="img-fluid">
-            <div class="overlay">
-              <p> Ocean Breeze Athletic Complex in Staten Island hosts some of the biggest and most competitive indoor track meets in the region, featuring a fast track and top-tier facilities that attract high-level athletes from across the Northeast.
-              </p>
-            </div>
-          </div>
-        </div>
-    
-        <div class="col-md-6 col-sm-6 img p-3 mb-2 d-flex justify-content-center">
-          <div class="image-container">
-            <img src="imgs/thebubble.jpg" alt="The Bubble" class="img-fluid">
-            <div class="overlay">
-              <p> Many winter track meets are held at the Bubble, offering athletes a consistent and competitive indoor venue throughout the season.
-              </p>
-            </div>
-          </div>
+          </p>
         </div>
       </div>
-    </div>
-   
-          <div class="row">
-            <!-- Girls Records -->
-            <div class="col-12 col-lg-6 text-center">
-                <div id="girlswinter-app">
-                    <h1>Top Girls Records</h1>
-                    <div class="table-wrapper">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Race</th>
-                                <th>Runner</th>
-                                <th>Time</th>
-                                <th>Year</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr v-for="record in raceRecords" :key="record.race">
-                                <td>{{ record.race }}</td>
-                                <td>{{ record.name }}</td>
-                                <td>{{ record.time }}</td>
-                                <td>{{ record.year }}</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                </div>
-            </div>
-            
-            <div class="col-12 col-lg-6 text-center">
-                <div id="boyswinter-app">
-                    <h1>Top Boys Records</h1>
-                    <div class="table-wrapper">
-                    <table class="table table-bordered">
-                        <thead>
-                            <tr>
-                                <th>Race</th>
-                                <th>Runner</th>
-                                <th>Time</th>
-                                <th>Year</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr v-for="record in raceRecords" :key="record.race">
-                                <td>{{ record.race }}</td>
-                                <td>{{ record.name }}</td>
-                                <td>{{ record.time }}</td>
-                                <td>{{ record.year }}</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                </div>
-            </div>
-        </div> 
-        <div class="container mt-2">
-          <div id="multiCarousel" class="carousel slide" data-bs-ride="carousel">
-              <div class="carousel-inner">
-                  <!-- First slide -->
-                  <div class="carousel-item active">
-                      <div class="row justify-content-center text-center g-2">
-                          <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                              <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="1">
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                              <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="2">
-                          </div>
-                          <div class="col-lg-4 d-none d-lg-block mb-2">
-                              <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="3">
-                          </div>
-                      </div>
-                  </div>
-      
-                  <!-- Second slide -->
-                  <div class="carousel-item">
-                      <div class="row justify-content-center text-center g-2">
-                          <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                              <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="4">
-                          </div>
-                          <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                              <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="5">
-                          </div>
-                          <div class="col-lg-4 d-none d-lg-block mb-2">
-                              <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="6">
-                          </div>
-                      </div>
-                  </div>
+
+      <div class="container text-center">
+        <h2 class="mt-2 fw-bold">Events</h2>
+        <div class="mb-3">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><strong>Sprints:</strong> Includes 55m, 100m, 200m, and 400m dash events testing
+              explosive speed and power.</li>
+            <li class="list-group-item"><strong>Middle Distance:</strong> 600m, 800m, 1000m, and 1500m races focusing on
+              endurance and pacing.</li>
+            <li class="list-group-item"><strong>Distance:</strong> Events such as the 1600m, mile, 3000m, and 3200m
+              testing stamina and strategy.</li>
+            <li class="list-group-item"><strong>Hurdles:</strong> High, low, and intermediate hurdles including 55m
+              hurdles and 400m hurdles.</li>
+
+            <!-- Hidden extra event categories -->
+            <span id="extra-events" style="display: none;">
+              <li class="list-group-item"><strong>Relays:</strong> Includes 4x100, 4x200, 4x400, 4x800, sprint medley,
+                distance medley, shuttle hurdles, and mixed 4x400 relays.</li>
+              <li class="list-group-item"><strong>Throws:</strong> Shot put, discus, hammer, and javelin events testing
+                strength and technique.</li>
+              <li class="list-group-item"><strong>Jumps:</strong> High jump, long jump, triple jump, and pole vault
+                requiring speed, agility, and coordination.</li>
+            </span>
+          </ul>
+
+          <button id="toggle-btn" class="btn btn-outline-primary mt-3 px-4 py-2 rounded-3 shadow-sm fw-semibold">
+            <span class="blue-icon">➕</span> Show More
+          </button>
+        </div>
+      </div>
+
+
+      <div class="container text-center mb-5">
+        <div class="row justify-content-center">
+          <div class="col-md-6 col-sm-6 img p-3 mb-2 d-flex justify-content-center">
+            <div class="image-container">
+              <img src="imgs/ocean breeze.jpg" alt="Ocean Breeze" class="img-fluid">
+              <div class="overlay">
+                <p> Ocean Breeze Athletic Complex in Staten Island hosts some of the biggest and most competitive indoor
+                  track meets in the region, featuring a fast track and top-tier facilities that attract high-level
+                  athletes from across the Northeast.
+                </p>
               </div>
-      
-              <a class="carousel-control-prev" href="#multiCarousel" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#multiCarousel" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-              </a>
+            </div>
           </div>
+
+          <div class="col-md-6 col-sm-6 img p-3 mb-2 d-flex justify-content-center">
+            <div class="image-container">
+              <img src="imgs/thebubble.jpg" alt="The Bubble" class="img-fluid">
+              <div class="overlay">
+                <p> Many winter track meets are held at the Bubble, offering athletes a consistent and competitive
+                  indoor venue throughout the season.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
+   
+      <div class="row">
+        <!-- Girls Records -->
+        <div class="col-12 col-lg-6 text-center">
+          <div id="girlswinter-app">
+            <h1>Top Girls Records</h1>
+            <div class="table-wrapper">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Race</th>
+                    <th>Runner</th>
+                    <th>Time</th>
+                    <th>Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="(record, index) in raceRecords" :key="index">
+                    <td>{{ record.race }}</td>
+                    <td>{{ record.name }}</td>
+                    <td>{{ record.time }}</td>
+                    <td>{{ record.year }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          </div>
+
+        <!-- Top Race Records -->
       
+        <div class="col-12 col-lg-6 text-center">
+          <div id="boyswinter-app">
+            <h1>Top Boys Records</h1>
+            <div class="table-wrapper">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Race</th>
+                    <th>Runner</th>
+                    <th>Time</th>
+                    <th>Year</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="record in raceRecords" :key="record.race">
+                    <td>{{ record.race }}</td>
+                    <td>{{ record.name }}</td>
+                    <td>{{ record.time }}</td>
+                    <td>{{ record.year }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-2">
+        <div id="multiCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- First slide -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center text-center g-2">
+                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="1">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="2">
+                </div>
+                <div class="col-lg-4 d-none d-lg-block mb-2">
+                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="3">
+                </div>
+              </div>
+            </div>
+
+            <!-- Second slide -->
+            <div class="carousel-item">
+              <div class="row justify-content-center text-center g-2">
+                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="4">
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
+                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="5">
+                </div>
+                <div class="col-lg-4 d-none d-lg-block mb-2">
+                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="6">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="carousel-control-prev" href="#multiCarousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#multiCarousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+
       <footer>
-          <!-- Footer content -->
+        <!-- Footer content -->
       </footer>
-      
-      
 
 
-        <script
-        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"
-      ></script>
-      <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"
-      ></script>
+        crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  
+
       <script src="script.js"> </script>
-    </body>
-  </html>
-  
+</body>
+
+</html>

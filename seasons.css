@@ -119,7 +119,6 @@ a.nav-link:hover {
     overflow-x: auto;
 }
 
-
 .row {
     display: flex;
     align-items: stretch;
@@ -364,31 +363,37 @@ img.img-fluid {
 }
 
 .carousel-img {
-    width: 30%;
+    width: 100%;
+    max-width: 300px;
+    /* Limits how wide it gets */
     height: 250px;
+    /* <- Set this to your desired height */
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+
 }
 
+/* Optional Hover Effect */
 .carousel-img:hover {
     transform: scale(1.03);
 }
 
-@media (max-width: 992px) {
+/* Medium screens (2x2 layout feels balanced here) */
+@media (min-width: 768px) {
     .carousel-img {
-        width: 45%;
-        height: 220px;
+        max-width: 45%;
     }
 }
 
-@media (max-width: 576px) {
+/* Larger screens — shrink images slightly */
+@media (min-width: 992px) {
     .carousel-img {
-        width: 90%;
-        height: 200px;
+        max-width: 40%;
     }
 }
+
 
 p {
     font-family: "redonda", sans-serif;
