@@ -1,3 +1,4 @@
+/* ======== General Styles ======== */
 body {
     padding-top: 70px;
 }
@@ -13,6 +14,20 @@ h1.main-content {
     color: #082D65;
 }
 
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-family: "redonda", sans-serif;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+/* ======== Navbar ======== */
 nav {
     background-color: #142F56;
 }
@@ -27,10 +42,15 @@ a.nav-link:hover {
     color: #fff;
 }
 
+.navbar .nav-link.active {
+    text-decoration: underline;
+    color: #007bff;
+    /* Change to your desired color */
+}
+
 .navbar-nav .nav-link {
     padding: 10px 15px;
 }
-
 
 .navbar-toggler-icon {
     display: none;
@@ -40,7 +60,6 @@ a.nav-link:hover {
 .custom-toggler {
     position: relative;
     width: 50px;
-    /* Larger button */
     height: 50px;
     border: 1px solid #F8B822;
     border-radius: 8px;
@@ -50,13 +69,10 @@ a.nav-link:hover {
     justify-content: center;
 }
 
-/* Custom toggle icon lines */
 .custom-toggler .line {
     display: block;
     width: 20px;
-    /* Ensure proper width */
     height: 4px;
-    /* Slightly thinner for balance */
     background-color: #F8B822;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     position: absolute;
@@ -79,7 +95,7 @@ a.nav-link:hover {
     bottom: 14px;
 }
 
-/* Keep X centered and proportional */
+/* Toggle button when expanded */
 .custom-toggler[aria-expanded="true"] .line:nth-child(1) {
     top: 50%;
     transform: translateX(-50%) translateY(-50%) rotate(45deg);
@@ -94,11 +110,24 @@ a.nav-link:hover {
     transform: translateX(-50%) translateY(-50%) rotate(-45deg);
 }
 
+/* ======== Layout ======== */
 .row {
+    display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
 }
 
-/* Container Cards */
+.col-12.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-padding {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ======== Cards (Container Cards for Sections) ======== */
 #girlsxc-app,
 #boysxc-app,
 #girlswinter-app,
@@ -119,17 +148,24 @@ a.nav-link:hover {
     overflow-x: auto;
 }
 
-.row {
-    display: flex;
-    align-items: stretch;
-    /* All children (columns) will have the same height */
+/* ======== Tables ======== */
+.table-wrapper {
+    max-height: 600px;
+    overflow-y: auto;
+    overflow-x: auto;
+    width: 100%;
+    background: #F8B822;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    padding: 0;
+    margin: 20px 0;
 }
 
-.col-12.col-lg-6 {
-    display: flex;
-    flex-direction: column;
+.table-wrapper h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
 }
-
 
 table {
     margin: 0 !important;
@@ -138,44 +174,13 @@ table {
     width: 100%;
     border-radius: 0;
     background: #F8B822;
-}
-
-.table-wrapper {
-    max-height: 600px;
-    overflow-y: auto;
-    overflow-x: auto;
-    width: 100%;
-
-    background: #F8B822;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-
-    /* Tighter spacing */
-    padding: 0;
-    margin: 0;
-}
-
-.table-wrapper {
-    margin: 20px 0;
-}
-
-
-/* Table Header */
-th {
-    background: linear-gradient(135deg, #142F56, #3C5078);
-    color: #F8B822 !important;
-    font-weight: bold;
-    padding: 14px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    table-layout: fixed;
 }
 
 td,
 th {
     height: 50px;
-    /* control individual cell height if needed */
 }
-
 
 table.table th {
     background: linear-gradient(135deg, #142F56, #3C5078);
@@ -191,18 +196,14 @@ td {
     padding: 12px;
     text-align: center;
     border: 2px solid #F8B822;
-    /* Changed to yellow */
 }
 
-/* Alternate Row Colors */
 tr:nth-child(even) {
     background-color: #f8f9fc !important;
 }
 
-/* Hover Effect */
 tr:hover {
     background-color: #F8B822 !important;
-    /* Changed to yellow */
     transition: background 0.3s ease-in-out;
 }
 
@@ -218,24 +219,145 @@ tr:hover {
     }
 }
 
+/* ======== Images ======== */
+img.img-fluid {
+    width: 400px;
+}
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
-/* Make the footer the same color as the navbar */
+.rounded {
+    border-radius: 10px;
+}
+
+.shadow {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.img img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container:hover {
+    transform: scale(1.1);
+}
+
+.overlay-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay-img:hover {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #F8B822;
+    background-color: #082D65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container:hover .overlay-img {
+    transform: scale(1.1);
+}
+
+/* Carousel Images */
+.carousel-img {
+    width: 100%;
+    max-width: 650px;
+    height: 300px;
+    /* keep this */
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Carousel Responsive */
+@media (min-width: 768px) {
+    .carousel-img {
+        max-width: 45%;
+        height: 250px;
+        /* slightly smaller */
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-img {
+        max-width: 35%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .carousel-img {
+        max-width: 30%;
+        height: 250px;
+    }
+}
+
+/* ======== Footer ======== */
 footer {
     background-color: #142F56;
-    /* Same as the navbar */
     color: white;
 }
 
 footer a {
     color: #F8B822;
-    /* Matching link color from navbar */
     transition: color 0.3s ease-in-out;
 }
 
 footer a:hover {
     color: #fff;
-    /* On hover, links will turn white */
 }
 
 footer .container {
@@ -259,166 +381,18 @@ footer .col-md-4 {
 
 footer .text-center {
     background-color: #082D65;
-    /* Darker background for the bottom text */
     font-size: 0.9rem;
 }
 
-img.img-fluid {
-    width: 400px;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.rounded {
-    border-radius: 10px;
-}
-
-.shadow {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.img img {
-    width: 100%;
-    /* Ensures images fill their container */
-    height: 250px;
-    /* Sets a uniform height */
-    object-fit: cover;
-    /* Ensures images maintain aspect ratio while covering the space */
-    border-radius: 10px;
-    /* Optional: Adds rounded corners */
-}
-
-.img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-    /* Ensures uniform height for image containers */
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    max-width: 400px;
-    /* Adjust based on preference */
-    border-radius: 10px;
-    overflow: hidden;
-    /* Prevents text from spilling out */
-    transition: transform 0.3s ease-in-out;
-    /* Smooth scaling */
-}
-
-.image-container:hover {
-    transform: scale(1.1);
-}
-
-
-.overlay-img {
-    width: 100%;
-    height: 250px;
-    /* Adjust for uniform size */
-    object-fit: cover;
-    display: block;
-    transition: transform 0.3s ease-in-out;
-    /* Smooth scaling for the image */
-}
-
-.overlay-img:hover {
-    transform: scale(1.1);
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    /* Semi-transparent black */
-    color: #F8B822;
-    background-color: #082D65;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    /* Hidden by default */
-    transition: opacity 0.3s ease-in-out;
-    font-size: 1.2rem;
-    text-align: center;
-    padding: 10px;
-}
-
-.image-container:hover .overlay {
-    opacity: 1;
-    /* Show overlay when hovered */
-}
-
-.image-container:hover .overlay-img {
-    transform: scale(1.1);
-    /* Scale image up by 10% */
-}
-
-.carousel-img {
-    width: 100%;
-    max-width: 300px;
-    /* Limits how wide it gets */
-    height: 250px;
-    /* <- Set this to your desired height */
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-
-}
-
-/* Optional Hover Effect */
-.carousel-img:hover {
-    transform: scale(1.03);
-}
-
-/* Medium screens (2x2 layout feels balanced here) */
-@media (min-width: 768px) {
-    .carousel-img {
-        max-width: 45%;
-    }
-}
-
-/* Larger screens — shrink images slightly */
-@media (min-width: 992px) {
-    .carousel-img {
-        max-width: 40%;
-    }
-}
-
-
-p {
-    font-family: "redonda", sans-serif;
-}
-
-.section-padding {
-    padding-top: 2rem;
-    /* or less */
-    padding-bottom: 2rem;
-}
-
-.class-details {
-    margin-bottom: 0.5rem;
-}
-
-h2 {
-    margin-bottom: 0.5rem;
-}
-
+/* ======== Buttons ======== */
 #toggle-btn {
     transition: all 0.3s ease;
     font-size: 1rem;
     letter-spacing: 0.5px;
     background-color: #082D65;
     color: #F8B822;
+    padding: 8px 16px;
+    border-radius: 8px;
 }
 
 #toggle-btn:hover {

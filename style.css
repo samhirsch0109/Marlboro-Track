@@ -31,6 +31,11 @@ a.nav-link:hover {
     padding: 10px 15px;
 }
 
+.navbar .nav-link.active {
+    text-decoration: underline;
+    color: #007bff;
+    /* Change to your desired color */
+}
 
 .navbar-toggler-icon {
     display: none;

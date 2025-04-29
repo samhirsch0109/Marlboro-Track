@@ -182,50 +182,48 @@
         </div>
       </div>
 
-      <div class="container mt-2">
-        <div id="multiCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="container mt-4">
+        <div id="multiCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000" data-bs-pause="hover">
           <div class="carousel-inner">
-            <!-- First slide -->
-            <div class="carousel-item active">
-              <div class="row justify-content-center text-center g-2">
-                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="1">
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="2">
-                </div>
-                <div class="col-lg-4 d-none d-lg-block mb-2">
-                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="3">
-                </div>
-              </div>
-            </div>
+            
+     <!-- Slide 1 -->
+<div class="carousel-item active">
+<div class="d-flex justify-content-center align-items-center gap-3 flex-wrap"">
+  <img src="imgs/winter1.jpeg" class="carousel-img" alt="1">
+  <img src="imgs/winter2.jpeg" class="carousel-img" alt="2">
+</div>
+</div>
 
-            <!-- Second slide -->
-            <div class="carousel-item">
-              <div class="row justify-content-center text-center g-2">
-                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="4">
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-10 mb-2">
-                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="5">
-                </div>
-                <div class="col-lg-4 d-none d-lg-block mb-2">
-                  <img src="https://picsum.photos/400/300" class="img-fluid rounded" alt="6">
-                </div>
-              </div>
-            </div>
-          </div>
+<!-- Slide 2 -->
+<div class="carousel-item">
+<div class="d-flex justify-content-center gap-3 flex-wrap">
+  <img src="imgs/winter3.jpeg" class="carousel-img" alt="3">
+  <img src="imgs/winter5.jpeg" class="carousel-img" alt="4">
+</div>
+</div>
 
-          <a class="carousel-control-prev" href="#multiCarousel" role="button" data-bs-slide="prev">
+<!-- Slide 3 -->
+<div class="carousel-item">
+<div class="d-flex justify-content-center gap-3 flex-wrap">
+  <img src="imgs/carousel5.jpeg" class="carousel-img" alt="5">
+  <img src="imgs/rainbow.jpeg" class="carousel-img" alt="6">
+</div>
+</div>
+
+      
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#multiCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#multiCarousel" role="button" data-bs-slide="next">
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#multiCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </a>
+          </button>
         </div>
       </div>
+      
+      
 
       <footer>
         <!-- Footer content -->
