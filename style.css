@@ -17,6 +17,16 @@ nav {
     background-color: #142F56;
 }
 
+
+a.nav-link,
+a.nav-link:hover,
+a.nav-link:focus,
+a.nav-link:active,
+.nav-link.active {
+    text-decoration: none !important;
+    /* Force removal */
+}
+
 a.nav-link {
     color: #F8B822;
     font-size: large;
@@ -24,18 +34,33 @@ a.nav-link {
 }
 
 a.nav-link:hover {
-    color: #fff;
+    color: #F8B822 !important;
+    /* Gold hover */
+    text-decoration: none !important;
+    background-color: transparent;
 }
 
 .navbar-nav .nav-link {
     padding: 10px 15px;
 }
 
-.navbar .nav-link.active {
-    text-decoration: underline;
-    color: #007bff;
-    /* Change to your desired color */
+a.nav-link:hover {
+    color: #142F56 !important;
+    /* Deep navy text */
+    background-color: #F8B822 !important;
+    /* Gold background */
+    text-decoration: none !important;
 }
+
+/* Active link style */
+.nav-link.active {
+    color: #142F56 !important;
+    /* Deep navy text */
+    background-color: #F8B822;
+    border-bottom: none;
+    text-decoration: none !important;
+}
+
 
 .navbar-toggler-icon {
     display: none;

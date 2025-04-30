@@ -134,9 +134,9 @@ $(document).ready(function () {
         extraEvents.fadeToggle();
 
         if (button.hasClass("expanded")) {
-            button.removeClass("expanded").html("➕ Show More");
+            button.removeClass("expanded").html("+ Show More");
         } else {
-            button.addClass("expanded").html("➖ Show Less");
+            button.addClass("expanded").html("- Show Less");
         }
     });
 });
