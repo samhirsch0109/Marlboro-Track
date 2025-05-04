@@ -3,6 +3,22 @@ body {
     padding-top: 70px;
 }
 
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
 h1.main-content {
     font-size: 3.5rem;
     /* ~48px */
@@ -10,6 +26,16 @@ h1.main-content {
     padding-top: 30px;
     margin-bottom: 5px;
     text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #082D65;
+}
+
+h3.main-content {
+    font-size: 3.5rem;
+    /* ~48px */
+    font-weight: 500;
+    padding-top: 30px;
+    margin-bottom: 5px;
     letter-spacing: 1.5px;
     color: #082D65;
 }
@@ -424,4 +450,12 @@ footer .text-center {
     background-color: #142F56;
     color: #F8B822;
     box-shadow: 0 0.5rem 1rem rgba(13, 110, 253, 0.2);
+}
+
+.list-group-item h5 {
+    font-weight: 600;
+}
+
+.list-group-item small {
+    font-size: 0.9rem;
 }
