@@ -7,6 +7,8 @@ body {
     font-family: "redonda", sans-serif;
     font-weight: 400;
     font-style: normal;
+    scroll-behavior: smooth;
+
 }
 
 p.lead {
@@ -210,8 +212,10 @@ p {
 
 .logo-image {
     width: 220px;
-    border-radius: 30px;
+    border-radius: 20px;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .logo-image:hover {
@@ -377,4 +381,9 @@ tr:hover {
 
 p {
     font-family: "redonda", sans-serif;
+}
+
+img {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
 }

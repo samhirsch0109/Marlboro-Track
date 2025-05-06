@@ -273,6 +273,8 @@ tr:hover {
 /* ======== Images ======== */
 img.img-fluid {
     width: 400px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .img-fluid {
@@ -285,7 +287,7 @@ img.img-fluid {
 }
 
 .shadow {
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .img img {
@@ -293,6 +295,8 @@ img.img-fluid {
     height: 250px;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .img {
@@ -300,6 +304,7 @@ img.img-fluid {
     align-items: center;
     justify-content: center;
     height: 300px;
+
 }
 
 .image-container {
@@ -310,6 +315,8 @@ img.img-fluid {
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+
 }
 
 .image-container:hover {
@@ -322,6 +329,7 @@ img.img-fluid {
     object-fit: cover;
     display: block;
     transition: transform 0.3s ease-in-out;
+
 }
 
 .overlay-img:hover {
@@ -453,9 +461,15 @@ footer .text-center {
 }
 
 .list-group-item h5 {
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .list-group-item small {
     font-size: 0.9rem;
+    color: #082D65;
+}
+
+h5 {
+    color: #142F56;
+    font-family: "redonda", sans-serif;
 }
