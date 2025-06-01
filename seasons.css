@@ -460,16 +460,121 @@ footer .text-center {
     box-shadow: 0 0.5rem 1rem rgba(13, 110, 253, 0.2);
 }
 
-.list-group-item h5 {
-    font-weight: 300;
-}
+   /* ======== Schedule Page Specific Styles ======== */
+ .schedule-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
 
-.list-group-item small {
-    font-size: 0.9rem;
-    color: #082D65;
-}
+    .schedule-intro {
+        max-width: 700px;
+        margin: 0 auto 40px;
+        color: #142F56;
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
 
-h5 {
-    color: #142F56;
-    font-family: "redonda", sans-serif;
-}
+    .list-group-schedule {
+        border-radius: 20px !important;
+        overflow: hidden;
+        box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+        border: none;
+    }
+
+    .list-group-item-schedule {
+        border: none;
+        border-bottom: 1px solid rgba(248, 184, 34, 0.2);
+        padding: 25px 30px;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .list-group-item-schedule::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 5px;
+        height: 100%;
+        background: linear-gradient(135deg, #F8B822, #d6931f);
+        transform: scaleY(0);
+        transition: transform 0.3s ease;
+    }
+
+    .list-group-item-schedule:hover {
+        background: linear-gradient(135deg, rgba(248, 184, 34, 0.05), rgba(248, 184, 34, 0.1));
+        transform: translateX(5px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    }
+
+    .list-group-item-schedule:hover::before {
+        transform: scaleY(1);
+    }
+
+    .list-group-item-schedule:first-child {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .list-group-item-schedule:last-child {
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom: none;
+    }
+
+    .list-group-item-schedule  h5 {
+        font-weight: 600;
+        color: #142F56;
+        margin-bottom: 0;
+        font-size: 1.2rem;
+    }
+
+    .list-group-item-schedule small {
+        font-size: 0.95rem;
+        color: #082D65;
+        font-weight: 500;
+        background: rgba(248, 184, 34, 0.1);
+        padding: 6px 12px;
+        border-radius: 12px;
+        display: inline-block;
+        margin-top: 4px;
+    }
+
+
+    /* ======== Enhanced Footer ======== */
+    footer {
+        background: linear-gradient(135deg, #142F56 0%, #003366 100%);
+        color: white;
+        box-shadow: 0 -5px 20px rgba(0,0,0,0.1);
+    }
+
+    footer p {
+        margin: 0;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+    /* ======== Responsive Design ======== */
+    @media (max-width: 768px) {
+        h3.main-content {
+            font-size: 2.5rem;
+            padding-top: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .list-group-item {
+            padding: 20px 20px;
+            flex-direction: column;
+            align-items: flex-start !important;
+        }
+        
+        .list-group-item small {
+            margin-top: 8px;
+        }
+        
+        .schedule-container {
+            padding: 0 15px;
+        }
+    }
